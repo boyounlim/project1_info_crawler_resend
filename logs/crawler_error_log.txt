@@ -1,0 +1,550 @@
+2026-08-20 15:47:12,627 [INFO] Starting RSS feed retrieval...
+2026-08-20 15:47:12,627 [INFO] Parsing RSS: 전자신문(AI) (http://rss.etnews.com/04046.xml)
+2026-08-20 15:47:12,817 [WARNING] Feed parser reported non-fatal parsing warning for 전자신문(AI)
+2026-08-20 15:47:12,817 [INFO] Found 50 entries in 전자신문(AI)
+2026-08-20 15:47:12,817 [ERROR] Failed to parse feed 전자신문(AI): 'time.struct_time' object has no attribute 'strip'
+2026-08-20 15:47:12,817 [INFO] Parsing RSS: 전자신문(SW) (http://rss.etnews.com/04.xml)
+2026-08-20 15:47:12,973 [WARNING] Feed parser reported non-fatal parsing warning for 전자신문(SW)
+2026-08-20 15:47:12,973 [INFO] Found 50 entries in 전자신문(SW)
+2026-08-20 15:47:12,983 [ERROR] Failed to parse feed 전자신문(SW): 'time.struct_time' object has no attribute 'strip'
+2026-08-20 15:47:12,983 [INFO] Parsing RSS: 전자신문(IT전체) (http://rss.etnews.com/03.xml)
+2026-08-20 15:47:13,131 [WARNING] Feed parser reported non-fatal parsing warning for 전자신문(IT전체)
+2026-08-20 15:47:13,131 [INFO] Found 50 entries in 전자신문(IT전체)
+2026-08-20 15:47:13,131 [ERROR] Failed to parse feed 전자신문(IT전체): 'time.struct_time' object has no attribute 'strip'
+2026-08-20 15:47:13,131 [INFO] Parsing RSS: 보안뉴스(보안) (http://www.boannews.com/media/news_rss.xml?mkind=1)
+2026-08-20 15:47:13,399 [WARNING] Feed parser reported non-fatal parsing warning for 보안뉴스(보안)
+2026-08-20 15:47:13,400 [INFO] Found 0 entries in 보안뉴스(보안)
+2026-08-20 15:47:13,400 [INFO] Parsing RSS: 보안뉴스(IT) (http://www.boannews.com/media/news_rss.xml?mkind=2)
+2026-08-20 15:47:13,486 [WARNING] Feed parser reported non-fatal parsing warning for 보안뉴스(IT)
+2026-08-20 15:47:13,486 [INFO] Found 0 entries in 보안뉴스(IT)
+2026-08-20 15:47:13,486 [INFO] Parsing RSS: 구글뉴스(인공지능 AI) (https://news.google.com/rss/search?q=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20AI&hl=ko&gl=KR&ceid=KR:ko)
+2026-08-20 15:47:14,275 [INFO] Found 100 entries in 구글뉴스(인공지능 AI)
+2026-08-20 15:47:14,275 [ERROR] Failed to parse feed 구글뉴스(인공지능 AI): 'time.struct_time' object has no attribute 'strip'
+2026-08-20 15:47:14,275 [INFO] Parsing RSS: 구글뉴스(클라우드 Cloud) (https://news.google.com/rss/search?q=%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%20Cloud&hl=ko&gl=KR&ceid=KR:ko)
+2026-08-20 15:47:14,988 [INFO] Found 97 entries in 구글뉴스(클라우드 Cloud)
+2026-08-20 15:47:14,990 [ERROR] Failed to parse feed 구글뉴스(클라우드 Cloud): 'time.struct_time' object has no attribute 'strip'
+2026-08-20 15:47:14,990 [INFO] Parsing RSS: 구글뉴스(디지털 전환 DX) (https://news.google.com/rss/search?q=%EB%94%94%EC%A7%80%ED%84%B8%20%EC%A0%84%ED%99%98%20DX&hl=ko&gl=KR&ceid=KR:ko)
+2026-08-20 15:47:15,650 [INFO] Found 100 entries in 구글뉴스(디지털 전환 DX)
+2026-08-20 15:47:15,652 [ERROR] Failed to parse feed 구글뉴스(디지털 전환 DX): 'time.struct_time' object has no attribute 'strip'
+2026-08-20 15:47:15,652 [INFO] Parsing RSS: 구글뉴스(자동화 RPA) (https://news.google.com/rss/search?q=%EC%9E%90%EB%8F%99%ED%99%94%20RPA&hl=ko&gl=KR&ceid=KR:ko)
+2026-08-20 15:47:16,354 [INFO] Found 100 entries in 구글뉴스(자동화 RPA)
+2026-08-20 15:47:16,354 [ERROR] Failed to parse feed 구글뉴스(자동화 RPA): 'time.struct_time' object has no attribute 'strip'
+2026-08-20 15:47:16,354 [INFO] Parsing RSS: 구글뉴스(정보보안 정보보호) (https://news.google.com/rss/search?q=%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88%20%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8&hl=ko&gl=KR&ceid=KR:ko)
+2026-08-20 15:47:17,101 [INFO] Found 100 entries in 구글뉴스(정보보안 정보보호)
+2026-08-20 15:47:17,101 [ERROR] Failed to parse feed 구글뉴스(정보보안 정보보호): 'time.struct_time' object has no attribute 'strip'
+2026-08-20 15:47:17,102 [INFO] Completed RSS parsing. Total unique articles collected: 0
+2026-08-20 15:47:17,102 [WARNING] Initial RSS articles count is very low. Adding fallback RSS search keywords.
+2026-08-20 15:47:17,102 [INFO] Parsing fallback RSS: 구글뉴스(스마트 팩토리)
+2026-08-20 15:47:17,853 [ERROR] Failed to fetch fallback keyword 스마트 팩토리: 'time.struct_time' object has no attribute 'strip'
+2026-08-20 15:47:17,853 [INFO] Parsing fallback RSS: 구글뉴스(데이터 플랫폼)
+2026-08-20 15:47:18,616 [ERROR] Failed to fetch fallback keyword 데이터 플랫폼: 'time.struct_time' object has no attribute 'strip'
+2026-08-20 15:47:18,616 [INFO] Parsing fallback RSS: 구글뉴스(랜섬웨어)
+2026-08-20 15:47:19,358 [ERROR] Failed to fetch fallback keyword 랜섬웨어: 'time.struct_time' object has no attribute 'strip'
+2026-08-20 15:47:19,358 [INFO] Parsing fallback RSS: 구글뉴스(생성형 AI)
+2026-08-20 15:47:49,607 [INFO] Starting RSS feed retrieval...
+2026-08-20 15:47:49,607 [INFO] Parsing RSS: 전자신문(AI) (http://rss.etnews.com/04046.xml)
+2026-08-20 15:47:49,789 [WARNING] Feed parser reported non-fatal parsing warning for 전자신문(AI)
+2026-08-20 15:47:49,789 [INFO] Found 50 entries in 전자신문(AI)
+2026-08-20 15:47:49,791 [INFO] Parsing RSS: 전자신문(SW) (http://rss.etnews.com/04.xml)
+2026-08-20 15:47:49,953 [WARNING] Feed parser reported non-fatal parsing warning for 전자신문(SW)
+2026-08-20 15:47:49,953 [INFO] Found 50 entries in 전자신문(SW)
+2026-08-20 15:47:49,954 [INFO] Parsing RSS: 전자신문(IT전체) (http://rss.etnews.com/03.xml)
+2026-08-20 15:47:50,107 [WARNING] Feed parser reported non-fatal parsing warning for 전자신문(IT전체)
+2026-08-20 15:47:50,108 [INFO] Found 50 entries in 전자신문(IT전체)
+2026-08-20 15:47:50,110 [INFO] Parsing RSS: 보안뉴스(보안) (http://www.boannews.com/media/news_rss.xml?mkind=1)
+2026-08-20 15:47:50,205 [WARNING] Feed parser reported non-fatal parsing warning for 보안뉴스(보안)
+2026-08-20 15:47:50,205 [INFO] Found 0 entries in 보안뉴스(보안)
+2026-08-20 15:47:50,205 [INFO] Parsing RSS: 보안뉴스(IT) (http://www.boannews.com/media/news_rss.xml?mkind=2)
+2026-08-20 15:47:50,297 [WARNING] Feed parser reported non-fatal parsing warning for 보안뉴스(IT)
+2026-08-20 15:47:50,298 [INFO] Found 0 entries in 보안뉴스(IT)
+2026-08-20 15:47:50,298 [INFO] Parsing RSS: 구글뉴스(인공지능 AI) (https://news.google.com/rss/search?q=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20AI&hl=ko&gl=KR&ceid=KR:ko)
+2026-08-20 15:47:50,617 [INFO] Found 100 entries in 구글뉴스(인공지능 AI)
+2026-08-20 15:47:50,618 [INFO] Parsing RSS: 구글뉴스(클라우드 Cloud) (https://news.google.com/rss/search?q=%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%20Cloud&hl=ko&gl=KR&ceid=KR:ko)
+2026-08-20 15:47:50,922 [INFO] Found 97 entries in 구글뉴스(클라우드 Cloud)
+2026-08-20 15:47:50,923 [INFO] Parsing RSS: 구글뉴스(디지털 전환 DX) (https://news.google.com/rss/search?q=%EB%94%94%EC%A7%80%ED%84%B8%20%EC%A0%84%ED%99%98%20DX&hl=ko&gl=KR&ceid=KR:ko)
+2026-08-20 15:47:51,229 [INFO] Found 100 entries in 구글뉴스(디지털 전환 DX)
+2026-08-20 15:47:51,231 [INFO] Parsing RSS: 구글뉴스(자동화 RPA) (https://news.google.com/rss/search?q=%EC%9E%90%EB%8F%99%ED%99%94%20RPA&hl=ko&gl=KR&ceid=KR:ko)
+2026-08-20 15:47:51,507 [INFO] Found 100 entries in 구글뉴스(자동화 RPA)
+2026-08-20 15:47:51,508 [INFO] Parsing RSS: 구글뉴스(정보보안 정보보호) (https://news.google.com/rss/search?q=%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88%20%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8&hl=ko&gl=KR&ceid=KR:ko)
+2026-08-20 15:47:51,814 [INFO] Found 100 entries in 구글뉴스(정보보안 정보보호)
+2026-08-20 15:47:51,815 [INFO] Completed RSS parsing. Total unique articles collected: 609
+2026-08-20 15:47:51,816 [INFO] Final target metadata count: 609
+2026-08-20 15:47:51,816 [INFO] Starting detail page scraping for top 609 articles...
+2026-08-20 15:47:51,816 [INFO] [1/609] Scraping: 독파모 2차 평가, SK텔레콤·LG AI연구원 2개 항목씩 1위 (https://www.etnews.com/20260820000331)
+2026-08-20 15:47:53,299 [INFO] [2/609] Scraping: “AI가 인사이트 찾고 행동까지”…세일즈포스, '에이전틱 분석' 전략 공개 (https://www.etnews.com/20260820000320)
+2026-08-20 15:47:54,800 [INFO] [3/609] Scraping: 이스트소프트, 국민 AI 비서 '알비서'로 모두의 AI 사업 도전 (https://www.etnews.com/20260820000308)
+2026-08-20 15:47:56,271 [INFO] [4/609] Scraping: 씨엔티테크, 변화적응형 기업용 AI 운영 솔루션 개발사 '인트'에 투자 (https://www.etnews.com/20260820000286)
+2026-08-20 15:47:57,775 [INFO] [5/609] Scraping: 교원그룹 빨간펜,  '도요새중국어' 영상 콘텐츠·앱 개편 (https://www.etnews.com/20260820000263)
+2026-08-20 16:00:35,531 [INFO] Starting RSS feed retrieval...
+2026-08-20 16:00:35,531 [INFO] Parsing RSS: 전자신문(AI) (http://rss.etnews.com/04046.xml)
+2026-08-20 16:00:35,691 [WARNING] Feed parser reported non-fatal parsing warning for 전자신문(AI)
+2026-08-20 16:00:35,691 [INFO] Found 50 entries in 전자신문(AI)
+2026-08-20 16:00:35,694 [INFO] Parsing RSS: 전자신문(SW) (http://rss.etnews.com/04.xml)
+2026-08-20 16:00:35,840 [WARNING] Feed parser reported non-fatal parsing warning for 전자신문(SW)
+2026-08-20 16:00:35,840 [INFO] Found 50 entries in 전자신문(SW)
+2026-08-20 16:00:35,841 [INFO] Parsing RSS: 전자신문(IT전체) (http://rss.etnews.com/03.xml)
+2026-08-20 16:00:35,980 [WARNING] Feed parser reported non-fatal parsing warning for 전자신문(IT전체)
+2026-08-20 16:00:35,980 [INFO] Found 50 entries in 전자신문(IT전체)
+2026-08-20 16:00:35,983 [INFO] Parsing RSS: 보안뉴스(보안) (http://www.boannews.com/media/news_rss.xml?mkind=1)
+2026-08-20 16:00:36,072 [WARNING] Feed parser reported non-fatal parsing warning for 보안뉴스(보안)
+2026-08-20 16:00:36,072 [INFO] Found 0 entries in 보안뉴스(보안)
+2026-08-20 16:00:36,072 [INFO] Parsing RSS: 보안뉴스(IT) (http://www.boannews.com/media/news_rss.xml?mkind=2)
+2026-08-20 16:00:36,150 [WARNING] Feed parser reported non-fatal parsing warning for 보안뉴스(IT)
+2026-08-20 16:00:36,150 [INFO] Found 0 entries in 보안뉴스(IT)
+2026-08-20 16:00:36,150 [INFO] Parsing RSS: 구글뉴스(인공지능 AI) (https://news.google.com/rss/search?q=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20AI&hl=ko&gl=KR&ceid=KR:ko)
+2026-08-20 16:00:36,926 [INFO] Found 100 entries in 구글뉴스(인공지능 AI)
+2026-08-20 16:00:36,929 [INFO] Parsing RSS: 구글뉴스(클라우드 Cloud) (https://news.google.com/rss/search?q=%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%20Cloud&hl=ko&gl=KR&ceid=KR:ko)
+2026-08-20 16:00:37,664 [INFO] Found 97 entries in 구글뉴스(클라우드 Cloud)
+2026-08-20 16:00:37,665 [INFO] Parsing RSS: 구글뉴스(디지털 전환 DX) (https://news.google.com/rss/search?q=%EB%94%94%EC%A7%80%ED%84%B8%20%EC%A0%84%ED%99%98%20DX&hl=ko&gl=KR&ceid=KR:ko)
+2026-08-20 16:00:38,459 [INFO] Found 100 entries in 구글뉴스(디지털 전환 DX)
+2026-08-20 16:00:38,461 [INFO] Parsing RSS: 구글뉴스(자동화 RPA) (https://news.google.com/rss/search?q=%EC%9E%90%EB%8F%99%ED%99%94%20RPA&hl=ko&gl=KR&ceid=KR:ko)
+2026-08-20 16:00:39,116 [INFO] Found 100 entries in 구글뉴스(자동화 RPA)
+2026-08-20 16:00:39,118 [INFO] Parsing RSS: 구글뉴스(정보보안 정보보호) (https://news.google.com/rss/search?q=%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88%20%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8&hl=ko&gl=KR&ceid=KR:ko)
+2026-08-20 16:00:39,830 [INFO] Found 100 entries in 구글뉴스(정보보안 정보보호)
+2026-08-20 16:00:39,831 [INFO] Completed RSS parsing. Total unique articles collected: 609
+2026-08-20 16:00:39,831 [INFO] Final target metadata count: 609
+2026-08-20 16:00:39,831 [INFO] Starting detail page scraping for top 250 articles...
+2026-08-20 16:00:39,831 [INFO] [1/250] Scraping: 독파모 2차 평가, SK텔레콤·LG AI연구원 2개 항목씩 1위 (https://www.etnews.com/20260820000331)
+2026-08-20 16:00:41,322 [INFO] [2/250] Scraping: “AI가 인사이트 찾고 행동까지”…세일즈포스, '에이전틱 분석' 전략 공개 (https://www.etnews.com/20260820000320)
+2026-08-20 16:00:42,799 [INFO] [3/250] Scraping: 이스트소프트, 국민 AI 비서 '알비서'로 모두의 AI 사업 도전 (https://www.etnews.com/20260820000308)
+2026-08-20 16:00:44,255 [INFO] [4/250] Scraping: 씨엔티테크, 변화적응형 기업용 AI 운영 솔루션 개발사 '인트'에 투자 (https://www.etnews.com/20260820000286)
+2026-08-20 16:00:45,724 [INFO] [5/250] Scraping: 교원그룹 빨간펜,  '도요새중국어' 영상 콘텐츠·앱 개편 (https://www.etnews.com/20260820000263)
+2026-08-20 16:00:47,171 [INFO] [6/250] Scraping: 'CES 2027 미리 본다'…KEA, CES 연계 행사 10월 개최 (https://www.etnews.com/20260820000254)
+2026-08-20 16:00:48,638 [INFO] [7/250] Scraping: 오픈AI '챗GPT 워크', 업무 넘어 연구보고서 작성도 지원 (https://www.etnews.com/20260820000250)
+2026-08-20 16:00:50,125 [INFO] [8/250] Scraping: 플랜티엠, 네이버 AI 검색에 '모아진' 잡지 공급 (https://www.etnews.com/20260820000240)
+2026-08-20 16:00:51,607 [INFO] [9/250] Scraping: 비젠트로, 'M.AX 전문기업' 공식 선정… “기업 활동 AI 대전환(AX) 이끈다” (https://www.etnews.com/20260820000235)
+2026-08-20 16:00:53,078 [INFO] [10/250] Scraping: [포토] AMD, KAIST에 AI컴퓨터 'AI Halo' 기증 (https://www.etnews.com/20260820000165)
+2026-08-20 16:00:54,547 [INFO] Progress: Collected 10 non-null articles so far.
+2026-08-20 16:00:54,547 [INFO] [11/250] Scraping: [포토] AI반도체 업계 만난 배경훈 (https://www.etnews.com/20260820000164)
+2026-08-20 16:00:56,012 [INFO] [12/250] Scraping: [포토] AMD, KAIST에 AI컴퓨터 기증 (https://www.etnews.com/20260820000163)
+2026-08-20 16:00:57,477 [INFO] [13/250] Scraping: [포토] AMD, KAIST에 AI컴퓨터 기증 (https://www.etnews.com/20260820000162)
+2026-08-20 16:00:58,940 [INFO] [14/250] Scraping: [포토] AI반도체 업계 만난 배경훈 부총리 (https://www.etnews.com/20260820000161)
+2026-08-20 16:01:00,491 [INFO] [15/250] Scraping: [포토] 모두발언하는 배경훈 부총리 (https://www.etnews.com/20260820000160)
+2026-08-20 16:01:01,952 [INFO] [16/250] Scraping: [포토] 개방형 AI 컴퓨팅 생태계 구축 방안은 (https://www.etnews.com/20260820000159)
+2026-08-20 16:01:03,408 [INFO] [17/250] Scraping: [포토] AI반도체 업계 만난 배경훈 부총리 (https://www.etnews.com/20260820000158)
+2026-08-20 16:01:04,845 [INFO] [18/250] Scraping: [포토] 개방형 AI컴퓨팅 인프라 생태계 구축을 위한 AI 반도체 업계 간담회 (https://www.etnews.com/20260820000157)
+2026-08-20 16:01:06,303 [INFO] [19/250] Scraping: [포토] 모두발언하는 배경훈 부총리 (https://www.etnews.com/20260820000156)
+2026-08-20 16:01:07,767 [INFO] [20/250] Scraping: 버추얼랩, AI 소재 연구 플랫폼 'D3스퀘어' 대규모 업데이트 (https://www.etnews.com/20260820000110)
+2026-08-20 16:01:09,255 [INFO] Progress: Collected 20 non-null articles so far.
+2026-08-20 16:01:09,255 [INFO] [21/250] Scraping: “성장궤도 진입” 인스웨이브, 상반기 실적 개선 가속 (https://www.etnews.com/20260820000092)
+2026-08-20 16:01:10,728 [INFO] [22/250] Scraping: LG CNS, 타워팰리스에 경비로봇 도입…RX 플랫폼 '피지컬웍스' 적용 (https://www.etnews.com/20260820000013)
+2026-08-20 16:01:12,201 [INFO] [23/250] Scraping: AI가 바꾼 사이버전…24시간 내 공격 현실화 (https://www.etnews.com/20260820000071)
+2026-08-20 16:01:13,702 [INFO] [24/250] Scraping: AWS, '피지컬 AI 프론티어 프로그램' 출시…국내 기업 15개사 참여 (https://www.etnews.com/20260820000062)
+2026-08-20 16:01:15,172 [INFO] [25/250] Scraping: CJ ONE, '그라운드시소'와 제휴…“문화예술 전시서 포인트 쌓는다” (https://www.etnews.com/20260820000030)
+2026-08-20 16:01:16,672 [INFO] [26/250] Scraping: AI 에이전트 시대 데이터 해법은…'AI Ready Data 2026' 9월 3일 개최 (https://www.etnews.com/20260820000024)
+2026-08-20 16:01:18,177 [INFO] [27/250] Scraping: 롯데이노베이트 EVSIS, 엘포인트 연동…결제 접근성 강화 (https://www.etnews.com/20260820000023)
+2026-08-20 16:01:19,643 [INFO] [28/250] Scraping: 오픈AI CFO “내년 IPO 추진…앤트로픽보다 늦어도 문제없어” (https://www.etnews.com/20260820000004)
+2026-08-20 16:01:21,101 [INFO] [29/250] Scraping: IBM, 오류 내성 양자컴퓨터 위한 모듈형 극저온 시스템 첫 연결 (https://www.etnews.com/20260819000390)
+2026-08-20 16:01:22,581 [INFO] [30/250] Scraping: 이력서부터 직무분석까지…시흥시, 취업 준비 3일 압축 (https://www.etnews.com/20260819000389)
+2026-08-20 16:01:24,053 [INFO] Progress: Collected 30 non-null articles so far.
+2026-08-20 16:01:24,053 [INFO] [31/250] Scraping: [데이터뉴스] 개발자 업무시간 40%만 코딩 (https://www.etnews.com/20260819000110)
+2026-08-20 16:01:25,506 [INFO] [32/250] Scraping: AI 에이전트 '월권' 막아라…IT서비스사, 통제체계 구축 속도 (https://www.etnews.com/20260819000269)
+2026-08-20 16:01:26,981 [INFO] [33/250] Scraping: [전문가 기고] AI와 로봇산업하기 좋은 경기도 만들기 (https://www.etnews.com/20260819000042)
+2026-08-20 16:01:28,438 [INFO] [34/250] Scraping: 엔코아, 한화시스템과 맞손…“제조 AX 사업 협력” (https://www.etnews.com/20260819000274)
+2026-08-20 16:01:29,907 [INFO] [35/250] Scraping: [ET톡]백남준에서 'K로봇'으로 (https://www.etnews.com/20260819000252)
+2026-08-20 16:01:31,358 [INFO] [36/250] Scraping: 에버스핀, IPO 앞두고 재무안정성 부각 (https://www.etnews.com/20260819000248)
+2026-08-20 16:01:32,856 [INFO] [37/250] Scraping: 중국 최대 로봇 박람회 'WRC 2026' 개막…'시연' 넘어 '판매'로 (https://www.etnews.com/20260819000238)
+2026-08-20 16:01:34,365 [INFO] [38/250] Scraping: 서울시, '강남 심야 자율주행택시' 7대→19대로 확대 (https://www.etnews.com/20260819000236)
+2026-08-20 16:01:35,840 [INFO] [39/250] Scraping: [포토] 사물 전달해주는 휴머노이드 로봇 (https://www.etnews.com/20260819000212)
+2026-08-20 16:01:37,288 [INFO] [40/250] Scraping: [포토] 휴머노이드 로봇 등장 (https://www.etnews.com/20260819000209)
+2026-08-20 16:01:38,756 [INFO] Progress: Collected 40 non-null articles so far.
+2026-08-20 16:01:38,756 [INFO] [41/250] Scraping: [포토] 사물 옮기는 휴머노이드 로봇 (https://www.etnews.com/20260819000207)
+2026-08-20 16:01:40,258 [INFO] [42/250] Scraping: [포토] AI 기반 자율주행 청소로봇 (https://www.etnews.com/20260819000206)
+2026-08-20 16:01:41,707 [INFO] [43/250] Scraping: [포토] 사람 손가락 같은 로봇 손 (https://www.etnews.com/20260819000205)
+2026-08-20 16:01:43,165 [INFO] [44/250] Scraping: [포토] 사물 전달해주는 휴머노이드 로봇 (https://www.etnews.com/20260819000204)
+2026-08-20 16:01:44,670 [INFO] [45/250] Scraping: [포토] 휴머노이드 로봇 보는 윤진식 무역협회장 (https://www.etnews.com/20260819000203)
+2026-08-20 16:01:46,167 [INFO] [46/250] Scraping: [포토] 사물 전달해주는 휴머노이드 로봇 (https://www.etnews.com/20260819000200)
+2026-08-20 16:01:47,626 [INFO] [47/250] Scraping: [포토] AI가 측정해주는 체형 (https://www.etnews.com/20260819000199)
+2026-08-20 16:01:49,113 [INFO] [48/250] Scraping: [포토] 휴머노이드 로봇의 댄스타임 (https://www.etnews.com/20260819000195)
+2026-08-20 16:01:50,597 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:01:50,597 [INFO] [49/250] Scraping: [포토] VR의료교육 (https://www.etnews.com/20260819000194)
+2026-08-20 16:01:52,070 [INFO] [50/250] Scraping: [포토] VR 활용한 의료교육 (https://www.etnews.com/20260819000192)
+2026-08-20 16:01:53,591 [INFO] Progress: Collected 50 non-null articles so far.
+2026-08-20 16:01:53,591 [INFO] [51/250] Scraping: 찰스 샌즈베리 클라우데라 CEO “하이브리드가 대세...3년간 10억달러 전략 투자 결실” (https://www.etnews.com/20260820000316)
+2026-08-20 16:01:55,065 [INFO] [52/250] Scraping: 소프트캠프-인미래전략연구원, 공공·국방 보안시장 공략 협력 (https://www.etnews.com/20260820000253)
+2026-08-20 16:01:56,519 [INFO] [53/250] Scraping: EBS 이사회, 신임 이사장에 조호연 이사 선임 (https://www.etnews.com/20260820000247)
+2026-08-20 16:01:57,997 [INFO] [54/250] Scraping: 클라우데라, 클라우드·인프라 경계 허물었다...통합 데이터 플랫폼 '애니웨어 클라우드' 공개 (https://www.etnews.com/20260820000226)
+2026-08-20 16:01:59,447 [INFO] [55/250] Scraping: 카스퍼스키, 강남구 고령장애인 150가구에 여름김치 전달 (https://www.etnews.com/20260820000059)
+2026-08-20 16:02:00,919 [INFO] [56/250] Scraping: 씨큐비스타, NDR·보안컨설팅 결합…공공·금융시장 공략 (https://www.etnews.com/20260820000039)
+2026-08-20 16:02:02,357 [INFO] [57/250] Scraping: 과기정통부·KISIA, '2026 KISIA 정보보호 경진대회' 성료 (https://www.etnews.com/20260820000033)
+2026-08-20 16:02:03,831 [INFO] [58/250] Scraping: 인티큐브, 신한투자증권 IPCC 시스템 재구축 사업 착수 (https://www.etnews.com/20260820000025)
+2026-08-20 16:02:05,347 [INFO] [59/250] Scraping: 클라우데라, '애니웨어 클라우드' 출시...멀티클라우드·온프레미스 아우르는 AI 플랫폼 (https://www.etnews.com/20260820000003)
+2026-08-20 16:02:06,848 [INFO] [60/250] Scraping: [이슈플러스] AI 공룡 '루프 엔지니어링' 격전…“스스로 최적화하는 시대 열렸다” (https://www.etnews.com/20260819000118)
+2026-08-20 16:02:08,389 [INFO] Progress: Collected 60 non-null articles so far.
+2026-08-20 16:02:08,389 [INFO] [61/250] Scraping: [이슈플러스] 후발주자 韓, 루프로 빈자리 메워야 (https://www.etnews.com/20260819000270)
+2026-08-20 16:02:09,870 [INFO] [62/250] Scraping: 딥시크, '루프' 오픈소스 승부수…AI 생태계 선점 경쟁 점화 (https://www.etnews.com/20260819000243)
+2026-08-20 16:02:11,332 [INFO] [63/250] Scraping: 방미통위, '유료방송 활성화 민관협의체' 킥오프 (https://www.etnews.com/20260820000324)
+2026-08-20 16:02:12,811 [INFO] [64/250] Scraping: [전자파학회 하계학술대회] AI 시대 통신 병목 뚫는 전파…국방·심우주로 무대 넓혔다 (https://www.etnews.com/20260820000287)
+2026-08-20 16:02:14,294 [INFO] [65/250] Scraping: [전자파학회 하계학술대회] 박영철 학회장 “전파는 소버린 영역…협력으로 기술주권 확보” (https://www.etnews.com/20260820000221)
+2026-08-20 16:02:15,754 [INFO] [66/250] Scraping: FLO, '리스닝 파티' 기능 도입…아티스트-팬 실시간 음악 공유 (https://www.etnews.com/20260820000318)
+2026-08-20 16:02:17,235 [INFO] [67/250] Scraping: 저작권위원회, 27~28일 진주서 '2026 저작권 쟁점 대토론회' 개최 (https://www.etnews.com/20260820000304)
+2026-08-20 16:02:18,714 [INFO] [68/250] Scraping: 카카오게임즈, K-판타지 MMORPG '도깨비의세계' 공개... 10월 출시 (https://www.etnews.com/20260820000227)
+2026-08-20 16:02:20,189 [INFO] [69/250] Scraping: 마브렉스, 웹3 신작 '픽셀 테이머즈' 글로벌 출시 (https://www.etnews.com/20260820000195)
+2026-08-20 16:02:21,657 [INFO] [70/250] Scraping: MBC, LCK 결승 2027년까지 생중계... e스포츠 지상파 안착 속도 (https://www.etnews.com/20260820000178)
+2026-08-20 16:02:23,177 [INFO] Progress: Collected 70 non-null articles so far.
+2026-08-20 16:02:23,177 [INFO] [71/250] Scraping: 엔씨 '리밋 제로 브레이커스', 9월 두 번째 글로벌 테스트... 콘텐츠·전투 개선 (https://www.etnews.com/20260820000174)
+2026-08-20 16:02:24,644 [INFO] [72/250] Scraping: “불법사이트 개설도 정범 처벌”…특별수사팀 신설·광고·계좌 차단 추진 (https://www.etnews.com/20260820000147)
+2026-08-20 16:02:26,122 [INFO] [73/250] Scraping: 삼성, 갤S26 FE 이달 공개…점유율 확대 '승부수' (https://www.etnews.com/20260820000152)
+2026-08-20 16:02:27,561 [INFO] [74/250] Scraping: 국산 NPU업계 “개방형 AI 인프라 생태계 구축해야” (https://www.etnews.com/20260820000118)
+2026-08-20 16:02:29,017 [INFO] [75/250] Scraping: 텔콤인터내쇼날, 전자파학회 학술대회서 우주·방산 RF 솔루션 전시 (https://www.etnews.com/20260820000104)
+2026-08-20 16:02:30,470 [INFO] [76/250] Scraping: 넥스윌, 전자파학회 학술대회서 안티드론 솔루션 등 첨단 국방·통신기술 선봬 (https://www.etnews.com/20260820000098)
+2026-08-20 16:02:31,926 [INFO] [77/250] Scraping: KT 희망나눔인상에 대학으로 잇다·안성규 드림스폰 대표 선정 (https://www.etnews.com/20260820000087)
+2026-08-20 16:02:33,403 [INFO] [78/250] Scraping: KT, 16개 AI 스타트업 손잡고 AX 사업 발굴 (https://www.etnews.com/20260820000081)
+2026-08-20 16:02:34,873 [INFO] [79/250] Scraping: 딜라이브TV, 지역뉴스 재방·AI뉴스 확대…지역 밀착 콘텐츠 강화 (https://www.etnews.com/20260820000065)
+2026-08-20 16:02:36,335 [INFO] [80/250] Scraping: SKB, 21~26일 'B tv 서울국제여성영화제 특집관' 운영 (https://www.etnews.com/20260820000046)
+2026-08-20 16:02:37,826 [INFO] Progress: Collected 80 non-null articles so far.
+2026-08-20 16:02:37,826 [INFO] [81/250] Scraping: LGU+, AI 기반 통합 건물관리 솔루션 출시 (https://www.etnews.com/20260820000012)
+2026-08-20 16:02:39,326 [INFO] [82/250] Scraping: 삼성전자 “DX, 당분간 적자 이어질 것”…시장점유율 확대로 정면돌파 (https://www.etnews.com/20260819000385)
+2026-08-20 16:02:40,796 [INFO] [83/250] Scraping: 웹툰업계, 웹툰 IP 활용 숏폼 영상·창작으로 확장…체류시간·팬덤 잡는다 (https://www.etnews.com/20260819000299)
+2026-08-20 16:02:42,255 [INFO] [84/250] Scraping: 게임스컴 2026 일주일 앞으로... K게임 신작 들고 글로벌 공략 (https://www.etnews.com/20260819000293)
+2026-08-20 16:02:43,721 [INFO] [85/250] Scraping: SKT, 美 자회사 거점 집결…효율성·시너지 확보 총력 (https://www.etnews.com/20260819000284)
+2026-08-20 16:02:45,176 [INFO] [86/250] Scraping: 넵튠, 신무협 RPG '검신제로' 글로벌 사전예약... 4분기 출시 (https://www.etnews.com/20260819000280)
+2026-08-20 16:02:46,651 [INFO] [87/250] Scraping: 넥써쓰, 자체 개발 AI 솔루션 11종 한자리에... 'AI 랩스' 포털 오픈 (https://www.etnews.com/20260819000275)
+2026-08-20 16:02:48,209 [INFO] [88/250] Scraping: EU, 5G 슬라이싱 요금제 기준 세운다…망중립성 지침 윤곽 (https://www.etnews.com/20260819000228)
+2026-08-20 16:02:49,666 [INFO] [89/250] Scraping: 더코브, 레드브릭하우스와 '배드애스가르드' 글로벌 퍼블리싱 계약 (https://www.etnews.com/20260819000217)
+2026-08-20 16:02:51,147 [INFO] [90/250] Scraping: 엠게임 '귀혼키우기', 사전예약 9일 만에 50만명 돌파 (https://www.etnews.com/20260819000211)
+2026-08-20 16:02:52,612 [INFO] Progress: Collected 90 non-null articles so far.
+2026-08-20 16:02:52,612 [INFO] [91/250] Scraping: 통신 3사 '모두의AI' 출사표…“국민 모두에게 AI 혜택 제공” (https://www.etnews.com/20260819000134)
+2026-08-20 16:02:54,078 [INFO] [92/250] Scraping: 관광공사, K-콘텐츠와 관광 연결 '한국여행 라운지' 운영 (https://www.etnews.com/20260819000075)
+2026-08-20 16:02:55,524 [INFO] [93/250] Scraping: 명인이노, '2026 OCP Korea Tech Day' 참가…AI 인프라 솔루션 전시 (https://www.etnews.com/20260819000028)
+2026-08-20 16:02:56,997 [INFO] [94/250] Scraping: LGU+, AI랜 환경서 안정적 망 전환 기술 검증 (https://www.etnews.com/20260819000027)
+2026-08-20 16:02:58,476 [INFO] [95/250] Scraping: KT, 'ISE EXPO 2026' 참가…협력사 북미 진출 지원 (https://www.etnews.com/20260819000023)
+2026-08-20 16:02:59,991 [INFO] [96/250] Scraping: KT, 국산 NPU·LLM 결합 'NPU LLM 스테이션' 출시 (https://www.etnews.com/20260819000020)
+2026-08-20 16:03:01,493 [INFO] [97/250] Scraping: '풀MVNO' 정책 암초…설비보유 알뜰폰 줄 이탈 (https://www.etnews.com/20260818000354)
+2026-08-20 16:03:02,965 [INFO] [98/250] Scraping: 웹툰이 숏드라마로…네이버웹툰, 영·프서 6개 IP 공개 (https://www.etnews.com/20260818000363)
+2026-08-20 16:03:04,431 [INFO] [99/250] Scraping: OTT 콘텐츠 '북미 쏠림' 심화…넷플릭스는 아시아 선호 확대 (https://www.etnews.com/20260818000347)
+2026-08-20 16:03:05,916 [INFO] [100/250] Scraping: 크래프톤, 배틀그라운드 인도 공략 전방위 확대...'라이트' 버전으로 15억 시장 노린다 (https://www.etnews.com/20260818000311)
+2026-08-20 16:03:07,414 [INFO] Progress: Collected 100 non-null articles so far.
+2026-08-20 16:03:07,414 [INFO] [101/250] Scraping: 글로벌 스마트링 1위 '오우라' 韓 상륙…구독형 헬스케어 승부수 (https://www.etnews.com/20260818000308)
+2026-08-20 16:03:08,890 [INFO] [102/250] Scraping: 단통법 폐지 1년…휴대폰 번호이동 2.5% 증가 그쳐 (https://www.etnews.com/20260818000206)
+2026-08-20 16:03:10,379 [INFO] [103/250] Scraping: 펄어비스 '붉은사막', 출시 5개월간 17차례 업데이트... 콘텐츠 지속 확장 (https://www.etnews.com/20260818000203)
+2026-08-20 16:03:11,869 [INFO] [104/250] Scraping: 라이엇게임즈, 신작 TCG '리프트바운드' 9월 출격... 스타터팩 국내 첫 공개 (https://www.etnews.com/20260818000201)
+2026-08-20 16:03:13,369 [INFO] [105/250] Scraping: 부산인디커넥트페스티벌 역대 최대 흥행... 42개국 332개 인디게임 부산 달궜다 (https://www.etnews.com/20260818000200)
+2026-08-20 16:03:14,846 [INFO] [106/250] Scraping: 로블록스, 차세대 크리에이터 육성 확대... 서울에 아시아 유일 '인스파이어 카페' (https://www.etnews.com/20260818000197)
+2026-08-20 16:03:16,452 [INFO] [107/250] Scraping: 엔씨 '아스트라에 오라티오', 日 코믹마켓서 티저 아트북 완판 (https://www.etnews.com/20260818000194)
+2026-08-20 16:03:17,982 [INFO] [108/250] Scraping: [ICT시사용어] D2C 액체냉각 (https://www.etnews.com/20260818000093)
+2026-08-20 16:03:19,543 [INFO] [109/250] Scraping: 콘진원, 대중음악산업계 간담회…“중견기업 데스밸리 극복 지원” (https://www.etnews.com/20260818000088)
+2026-08-20 16:03:21,015 [INFO] [110/250] Scraping: KT, 농협경제지주·한국MS 손잡고 유통 AX 사업 확장 (https://www.etnews.com/20260818000087)
+2026-08-20 16:03:22,522 [INFO] Progress: Collected 110 non-null articles so far.
+2026-08-20 16:03:22,522 [INFO] [111/250] Scraping: LGU+, 벤츠 신형 S클래스에 자체 영상채널 탑재…차량용 인포테인먼트 공략 (https://www.etnews.com/20260818000044)
+2026-08-20 16:03:23,988 [INFO] [112/250] Scraping: [전파칼럼] AI시대의 보이지 않는 인프라, 전자파 공학 (https://www.etnews.com/20260817000061)
+2026-08-20 16:03:25,464 [INFO] [113/250] Scraping: [기업 이모저모] 유가 예측도 인공지능으로…AI 서밋 가보니 - 연합인포맥스 (https://news.google.com/rss/articles/CBMicEFVX3lxTE5SeGR5ZWpJbzVwSTVMMG43Ym9xZGY2UXlNeTVaME5taWphZU0tdmdEcDJEVHprMnJPUHp4clRyUmQ4RzNoZnNlbjBQUmdLd0ZSekpsQjRpTEZnczFLQ25Md2lHLU5DSG1ocjdDUXNTYjM?oc=5)
+2026-08-20 16:03:27,937 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:03:27,937 [INFO] [114/250] Scraping: 교육부, 인공지능(AI) 인재 양성을 위하여 대학과 기업이 머리를 맞댑니다 - 대한민국교육신문 (https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xNFdaUzgzQkszUkJXTFpibXBmUHp1cVBfczRYZ2tQdnJZN2RrUTQwS0NROFJzeGJDRFVTQzRTaWQyV1MtZnQ0a29PWkJnR1NSREoyeUozSGpYSDVuMHJpaV9fQQ?oc=5)
+2026-08-20 16:03:30,063 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:03:30,064 [INFO] [115/250] Scraping: 인천항만공사, 인공지능(AI) 전환을 위해 생성형 AI 실전 적용 - 수도권지역뉴스 (https://news.google.com/rss/articles/CBMiaEFVX3lxTE5vdDZ3djNxeDFGaHNrZURqOXNaZHFSdFI0MXJjZ0VoZjFvWlU1c0tWYk8yLWpLdUpYcElRUm9SY0R1M1lkanZnbzMwTWxwYUFwbFY3LXRXSjdaVG5PR2pyZ2o4eXI1R21W?oc=5)
+2026-08-20 16:03:32,124 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:03:32,124 [INFO] [116/250] Scraping: 소셜 미디어 제국에서 인공지능(AI) 플랫폼으로, '효율성의 해'를 지나 대규모 인프라 투자의 시대로 - 메타(META) - 네이버 프리미엄콘텐츠 (https://news.google.com/rss/articles/CBMihgFBVV95cUxOM1dMZHczM19OX2Z2WWhveTBya2RGWGZNbW43YXIzMDZELXF4TGZMWVNKRmdEck90ZGt0SGE1eWRUQlZjX01KSVJXXzZLUkNyOUdhUTdkdzYzeDlGZG05bDk0X3ZVU1FXRkpFMkJoYWJ3N0pmR3QtcXpLVXo5c3k4UTRWMlZidw?oc=5)
+2026-08-20 16:03:34,557 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:03:34,558 [INFO] [117/250] Scraping: [대체불가 K테크] ②CCTV 분석한 AI가 위험 찾으면 휴머노이드가 출동 - 동아사이언스 (https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWblpwRGVtbWItZ1ljY0FuS0wxR3FUU2V6MWNwVmNRYkh3X0N3bEFzb2VLWVRGa1E0TTJsVWRTTEtEbS1zZWNYMVJzR3EwZUk1YS05UA?oc=5)
+2026-08-20 16:03:36,982 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:03:36,982 [INFO] [118/250] Scraping: 인공지능 시대, 언론매체가 생산한 뉴스-정보가 어떤 역할을 할까? - 브레이크뉴스 (https://news.google.com/rss/articles/CBMiR0FVX3lxTE5CMDB3TWYzbmNGRVc1QURWcTRIWnFtMUZmWUNWSXliZ25yOWlSRjFkWV9kalcxY3gzOU4zVGJlbnpFMjNHR3FV?oc=5)
+2026-08-20 16:03:39,389 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:03:39,389 [INFO] [119/250] Scraping: 친구·부모 대신 AI?…“인공지능이 행동에도 영향” - v.daum.net (https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0bU51NGZvSXpyX1hFX3VlVm5GTEhnaTZZSVlPa25MSWdyM0ktV05NM3NBX0x5VEZmRnZ6M2VPQUMyVHQtNXREc1pzMDAxSGM?oc=5)
+2026-08-20 16:03:41,515 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:03:41,516 [INFO] [120/250] Scraping: 불교평론, ‘불교, 인공지능(AI)을 만나다’ - 불교신문 (https://news.google.com/rss/articles/CBMibEFVX3lxTFBqZXFOd1RGc3dxVjFHSURva2tsQlozTG00dFBqMHdya0R5dnAwdmJzNkVrdkw4N01RcVByUmZ3eXlvNjFDRGVHc2MwOV9YNGVjcU9YUGFqTU1RRzRYUnQ3UnRndTJrNWlhTXFtWNIBbEFVX3lxTFBqZXFOd1RGc3dxVjFHSURva2tsQlozTG00dFBqMHdya0R5dnAwdmJzNkVrdkw4N01RcVByUmZ3eXlvNjFDRGVHc2MwOV9YNGVjcU9YUGFqTU1RRzRYUnQ3UnRndTJrNWlhTXFtWA?oc=5)
+2026-08-20 16:03:43,536 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:03:43,536 [INFO] Progress: Collected 120 non-null articles so far.
+2026-08-20 16:03:43,536 [INFO] [121/250] Scraping: 우리 동네 불편, 내 아이디어로 바꾼다…광명시, 'AI 소셜리빙랩' 참여자 모집 - 연합뉴스 (https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2Z203X1pyeGZPakl0QVlSVlRMeGlXb0M2eDFKV0NOSW8zSUdVb2JkUl93eVJjQmNyS0ZQdEhMWlpwMWJxSG5TOWdrNlcwcGdKbE8wdlZDVW1YbEE?oc=5)
+2026-08-20 16:03:45,617 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:03:45,618 [INFO] [122/250] Scraping: 양주시, ‘인공지능(AI)·로봇 챌린지’ 대비 2기 교육생 모집 - newspeak.kr (https://news.google.com/rss/articles/CBMiaEFVX3lxTFBrQ0hMOHN6UWh6enNEQVlBM1lWSUY2a1J1VEktVzFaRGcxTHdBNjVoa0tPcVpCdmJKRDVqd19veGtPQ09GNlg3MkR5ZTh1VmJuS3Ytam5KejluclZIbkEyM2RDTVkyRVBS?oc=5)
+2026-08-20 16:03:47,974 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:03:47,974 [INFO] [123/250] Scraping: "AI 붐에 커촹반50, 중국 대표 주가지수로 부상" - 연합뉴스 한민족센터 (https://news.google.com/rss/articles/CBMidEFVX3lxTFBOY1FuaEVLTHFPN3hKc19TUFpiX0tTcGh4QnVRNVUzVkFYVEJWSVZrZmJHVWpNb2J1M3NHLWc2aGtUWWQzeUVscV9zOFRhVWVicVktRzJTbmZ3eDQ3RWw2eHJQdzZSQWZUREVTTmo2UzZ2WXJF?oc=5)
+2026-08-20 16:03:50,348 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:03:50,348 [INFO] [124/250] Scraping: 전남광주특별시-중 광저우시, 인공지능(AI) 주제 ‘한중 학술포럼’ - 곡성투데이 (https://news.google.com/rss/articles/CBMiQkFVX3lxTE0tR1VBSkxmVjQtOWw3dkJzWWpOZkllcUNqb1ZsNHkwMkxZeThtc1VXNWtrRlhZMmktbTczVTExV0dKZw?oc=5)
+2026-08-20 16:03:52,710 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:03:52,710 [INFO] [125/250] Scraping: AI 시대의 "공동 지능” - 브랜드뉴스 (https://news.google.com/rss/articles/CBMibEFVX3lxTE1jT0E3YXZJTDMyeExHa3MyNHdnMHFGQlUtVGE2ZGxkT05rcmNOUTFGRTlNNWo5bTJjTnZfVlpfUVVrZTd4SHBMVUxSMXl2TEJzZzVYTk14c1B4ejJBd2lxLW1mblRlZHlJZXVaMQ?oc=5)
+2026-08-20 16:03:55,050 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:03:55,050 [INFO] [126/250] Scraping: 인천항만공사, 인공지능(AI) 규정 안내 비서 내부 배포…업무 효율성 제고 - 중도일보 (https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZNW1YRmt0UGgtM0Zxc204cy14dVhQM3lkZWVPYTd3RHhPQ1AzT0tha01YMjdGRHE5alJXOGdxc0VOYldiTk02MGF2WU04NU51N19aNl9RWGVtRzNmWHVnRF9OUEQ?oc=5)
+2026-08-20 16:03:57,061 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:03:57,061 [INFO] [127/250] Scraping: 비씨카드, AI가 핫딜 찾고 55만 맛집 추천…외국인은 스테이블코인 QR결제 - 한국경제 (https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QbTJjUXZyZjhWbi1DZnpPVUM3ZzFvelY1LWZ1RFpLTzc1Tm9YQ1BFRHBaMHdXQ1lyeVB5Sk5RZV9nQmpLUk5mQmZ3UDJhZ1l0c0dXdlRRRi03UQ?oc=5)
+2026-08-20 16:03:59,071 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:03:59,071 [INFO] [128/250] Scraping: AI 첨단 패키징 시장, 1000억 달러 돌파... K-메모리, 후공정 팹 진검승부 - 글로벌이코노믹 (https://news.google.com/rss/articles/CBMiiAFBVV95cUxPODdtTkRGTGxNMUVPQ1dVRHE5TFhRcWRTTXplSEZJSjFoUXZpTHNjdkRJb0J4UVNMaUhnZF9MQkItN0I1b3F4VGhKNk14NEl2dFRzZW5YLVk5TjIxSnQxeEIzeHFSMGszTi1vejFLNVV5VnFjMzNMZ2ZLSVd1ZkZTazFqalhjQlBf?oc=5)
+2026-08-20 16:04:01,065 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:01,065 [INFO] [129/250] Scraping: [Biz-inside,China] 반도체에서 컴퓨팅 파워까지...中, ‘지역별 맞춤형’ AI 생태계 구축 - 미주중앙일보 (https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPbmF4X3RXOEFiOTFIWFhjQ0VzVjNtM1ZidmNnejBDWWFBMEpqTkVDMGNmbzFLckppdTM3MG5kdjdhUC1UZFR1MExzYXZCY2EzN2ZyLVVnNktyeWF6RFFxa2t3?oc=5)
+2026-08-20 16:04:03,244 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:03,244 [INFO] [130/250] Scraping: 경기 직업교육, 인공지능(AI) 대전환 시동! 지식 전달 교사에서 인공지능(AI) 학습 설계자로… - 대한민국교육신문 (https://news.google.com/rss/articles/CBMiY0FVX3lxTE4za256MGM4ZzRWRnM1ZGFfVTk3NkFxUmp4SV9CSlJXSHBBVFg4a2o3NFBTYXZ0Y2hmYkltUXM2LTVpVkwyT0FtNW9USVhQOW1ibWplMVV4SW56OEhxZXk0blJTYw?oc=5)
+2026-08-20 16:04:05,643 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:05,643 [INFO] Progress: Collected 130 non-null articles so far.
+2026-08-20 16:04:05,643 [INFO] [131/250] Scraping: 자체 개발 AI 비서로 둔 인천항만공사 임직원들 - v.daum.net (https://news.google.com/rss/articles/CBMiT0FVX3lxTE0xQ01HVDkyMmpmeW1pLUp1YWo3MFNxdU83TFJXdXpBd29INFZGYlZ3aFZyV0FLZHZMcXpGZjlnVTRzeC1RN2VrYmQ5b2JWOEU?oc=5)
+2026-08-20 16:04:08,023 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:08,023 [INFO] [132/250] Scraping: 인공지능 AI 버블은 보험사에서 터진다? - 네이버 프리미엄콘텐츠 (https://news.google.com/rss/articles/CBMijAFBVV95cUxOYngzWlVvUHBld1RZZ1FnNm93bnRTd1IzemVBV2RIVG83NFFxaUJqVDJTQ0xtRlZxWFRIUTN3cjZGTWk4dDJZMG1MbmZ6VFVtaXdqWjdMZklGZTlvZDdsOU5UMXhBQWJwVkwtamNhSVRDTGgwd1U0ZzZKeWlZdTJPalNCUjBuZlB4MDFTTg?oc=5)
+2026-08-20 16:04:10,000 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:10,000 [INFO] [133/250] Scraping: 중등학교에 인공지능(AI) 교육을 통합하고, 연간 12개의 핵심 수업을 개설한다. - Vietnam.vn (https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ0owTVI1OXpUbmpaLXF5Z1lrejNDcVFJcnloQmQ3TkJtUnAtbFlwS2xtOUhfcEdMVk04SFowc2xERTRPN2dDRHpMV2NseFVDUzdSQTA4WlVhbXhYWHVlNkJSNHZGcGF1WjBUVkl4aWZxRlpkMTYyVkFZQW5XbGpTSHVOSWxsdlEwRkVSZUdfUW04OE9aRkQwWE11Wl9NZ3lEZ0VMekgyRlhvOC1kSHZLQQ?oc=5)
+2026-08-20 16:04:12,025 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:12,025 [INFO] [134/250] Scraping: 고등학생들은 매년 최소 12시간 이상 인공지능을 공부하게 됩니다. - Vietnam.vn (https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ2xXU2swZGVlZERyUnM3QTJYRVM0SzB1M1ZYWXJLX0xGcTNaWk9mVWs2aHNpRjFjeVBoYjMzOFJjbUgyNE9VQm94bFAtU290VFRfNHZwV2RmZGhzV2lLOWttbUxMY2lLbjRsQUVpR3BVT09ZMWJHMFktZlVxQUJNbEZBa0ZsMDNnbzNEQXl6Ml8yMlNWUjVxZFl3?oc=5)
+2026-08-20 16:04:14,355 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:14,355 [INFO] [135/250] Scraping: 달성군시설관리공단, 인공지능(AI) 자율주행 안내로봇 첫 도입 - sisa-news.com (https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XTTJNZFZHYnRtMUpzQzRrRW85Q0tqNmJ3eDY3SFI4ajV3bVo0cG0wRjU0Mjc3OGJDSTg1VWczelM0dzFFcW5GT0ZRdDI3TERUNGZYUlZVNHRidGdPcThieHdPVQ?oc=5)
+2026-08-20 16:04:16,756 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:16,756 [INFO] [136/250] Scraping: AI는 기업 운영 방식을 가속화하고 기술 인력 관련 과제를 해결합니다. - Vietnam.vn (https://news.google.com/rss/articles/CBMinAFBVV95cUxPd0VxOWo3N1V2SjBYdEo1X3VvWVpkalhUeVVqYXRYbzM1clo1QkxqcXhhWnFnTmJvM043dW91Sl92R2NFU21yazVGaFVwRG12RHB1b1cwaEZCR3dMLTVWWHJQTDhPQjRWUEtSb2lCbXhMdFE3YVpzQUNLVmg2NFhCYWxGZkdoVkU0U2pyd2JlM2Z2bUNvVHZydWo1clQ?oc=5)
+2026-08-20 16:04:19,140 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:19,140 [INFO] [137/250] Scraping: [AI경진대회] 성남시, 카이스트와 ‘제2회 인공지능(AI) 경진대회’ 개최 - 서울뉴스통신 (https://news.google.com/rss/articles/CBMia0FVX3lxTE1aTS0xNTVjeVVreGU5b1NTd19vUWduclhPTFVIOTV3WUpQWXZ4NlpzS2NvalFtQUY4VUdreDlEaDhoaVppcS15NW9MM3VHQ09TTVpiTzZqNW9mVzk3akRfVWFwZHE5cW5MTklr?oc=5)
+2026-08-20 16:04:21,584 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:21,584 [INFO] [138/250] Scraping: 글로벌 사모펀드, AI 인프라에 뭉칫돈…상반기 투자 1조 달러 - v.daum.net (https://news.google.com/rss/articles/CBMiT0FVX3lxTFAwZWlyVnlacDhGLWtITEYzUm1MVVNUTHlCY1F3NC1fWW43T2I4TGsybjEwejBpUjVfNWJVWGpLVGZxSkdWOEJPY2I2RWRqS0U?oc=5)
+2026-08-20 16:04:23,942 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:23,942 [INFO] [139/250] Scraping: 제조기업 84% “피지컬 AI 도입·계획”…생산성 향상 기대 속 일자리 감소 우려 - 글로벌이코노믹 (https://news.google.com/rss/articles/CBMihgFBVV95cUxOSHlwMUlJSlRBVEJLTGNYQm1rVEtpUHNsQTc0SE9HcU5DSjROX1liYmNYdTRQRk05UG93Q2JpanItM0hXUmtua2NYc0R1MEhKcTNCdklwbkVaTGtQV1pmVUZFcnY1eXViMHRpNzN0ZHZFSGwxLUpLMUdRWHhhZ002MU1vaDM0QQ?oc=5)
+2026-08-20 16:04:26,331 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:26,331 [INFO] [140/250] Scraping: KT, 인공지능 스타트업 16개사 선정...미래 AX 사업 발굴 나선다 - 인공지능신문 (https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xRmZjV0FKUS13ZlVydUZWWHlsSmQwTDlSb1hSaWRRZThsT0F0X05uaTRSTGJfa21fNWFqZUFFNEFzNGhMS2h5eDFwd0pDR1E0WjgyNlF3QThFTjcwdG5Xdm1CME9Wc28?oc=5)
+2026-08-20 16:04:28,819 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:28,819 [INFO] Progress: Collected 140 non-null articles so far.
+2026-08-20 16:04:28,819 [INFO] [141/250] Scraping: 두산로보틱스, 생성형 AI '클로드' 도입…로봇 R&D 속도전 - 지디넷코리아 (https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NeDBwZlR6Sjd5VnFXaXZSUTlMc0w4ak5NY291SjhTSFdudHZiV3pINVI2T21wS0RBM2RNaTNYNVQ2RUE0UDVmaFF3QmZ5T2NwSW14T0t3?oc=5)
+2026-08-20 16:04:31,150 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:31,151 [INFO] [142/250] Scraping: 5대 코인거래소 시세조종 AI로 잡는다…심층분석 ‘3일→1시간’ 단축 - 한겨레 (https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCQzFtN1hNV2JHcnRkamhYcWZlY0VvYml5Wk5VdTM0RTNzQXlqQmZsc1JPT1R6RE1EcENUWEk2b2Vrc3gyQVN5aHQ0V3lBS0M5aE40ejc3b2J5UkpsT2hlSHRVX1A2YVU?oc=5)
+2026-08-20 16:04:33,514 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:33,514 [INFO] [143/250] Scraping: 이스트소프트, '알비서'로 모두의 AI 서비스 도전 - 지디넷코리아 (https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wbHlERnAwRXRHa25CWWtNM01ReEl1UEI5LTRJdkhBU0NXNzhfbzFaLWRtT2stV3BxYy10SlFGbElwYzRlWjdWeEdDOWdfZDJ5aFNKNnNn?oc=5)
+2026-08-20 16:04:35,803 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:35,803 [INFO] [144/250] Scraping: 신한카드, 스테이블코인·AI에이전트까지…차세대 결제 인프라 확장 나선다 - 한국경제 (https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5YWs4aGozbkdacGVzZDZBZE5DTjQtbWkxeDRJNXB0cThvUVFRV0thM3IyS05Bb0R5Ny15SG9fUjFqVjhtLUN5M2UyaktwZlV6UXozUldnR2hpUQ?oc=5)
+2026-08-20 16:04:38,216 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:38,217 [INFO] [145/250] Scraping: [포토] 배경훈 부총리, 인공지능(AI) 반도체 업계 관계자 기념촬영 - edaily.co.kr (https://news.google.com/rss/articles/CBMigAFBVV95cUxQZV9wYXd0M0RrNHFsZ0xPQWYwRnNzazlzRHp4OFBxMHVSVUx1ZDQ0MUpzM3g4Q3ZHRlQ0VDhUUGJRRmQ4OTJrTWRmelF4eFVucmpHaDBsRldFSGllS21oS0lCSDhCTS10SWlndEJUOWllZmJaMWhyMEFocnc4dWZTYg?oc=5)
+2026-08-20 16:04:40,568 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:40,568 [INFO] [146/250] Scraping: 공주시, 인공지능(AI) 디지털배움터(체험존, 교육장) 정식 운영 - 일간투데이 (https://news.google.com/rss/articles/CBMia0FVX3lxTE9NSGowQWdYSTZFclowTzN4UzJaREFPTTQ5dDZrcVJkR3VzVkxFYnFva3JTSjRITk5EUUFQN291TDdfUHBHQ2xVNGt2R1B6eVhUY2xhcFhjMEV3OWJZMGxzalo5ZVJ5Snc5U2hz?oc=5)
+2026-08-20 16:04:42,964 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:42,965 [INFO] [147/250] Scraping: 엔비디아 금융지원 전략 성패는 메모리반도체에 달렸다, AI 인프라 가격 방어에 핵심 - 비즈니스포스트 (https://news.google.com/rss/articles/CBMic0FVX3lxTFBMbVI5anZMMjl0ZTNFZGFrYlVqdTNCYUNCRm9rRzdWcVZBVHR6ZVNWVnBsM0t4SU5DZ2o4VjU4OUFBcUQ1cF9EYkE0a0prYzZXTFVXT3AtYmFGRXVfMTJHS25ESWViUUNmS0dCWUFrTmRUcUE?oc=5)
+2026-08-20 16:04:45,330 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:45,331 [INFO] [148/250] Scraping: 세계 AI 보안 대회 제패하더니…우승 상금 1억 2110만원 모교에 쾌척 - v.daum.net (https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzTlN0Wnl4RDgtMDhPYmRndTNmU2I4NWdOSXAyYkxscXcxMWNYdWxrTWtkRTdrY2lZQmhnSG1uM3R4czBuOTE1NVJvMlN5OTQ?oc=5)
+2026-08-20 16:04:47,445 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:47,445 [INFO] [149/250] Scraping: 교육부, 인공지능(AI) 온이음, 인공지능(AI)과 이어지는 첫 연결고리 - 서울포커스 (https://news.google.com/rss/articles/CBMibEFVX3lxTE5SNHR0aWcyQi1OR0VFVkJ2aFZVTE5LcnJKZ1Vvd0pJWG4xLXhaUjQtaFJVQ0VVTC1jaXF3dThjTkIxeW5TRHdta1FDcUkxZ2VLUUpKaTd6QWM0NGU2aHZXNktfVmtnWVhHNXZDXw?oc=5)
+2026-08-20 16:04:49,862 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:49,862 [INFO] [150/250] Scraping: (주)대동 대구공장, 대구 제조 AI 대전환 계기될 듯 - 경북신문 (https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4eDdxc0JITENGVTI5OEpLNTJuOS03TnpXYkF2VURkcXBNVURrM25DUEZ2X3BxYW9oaFBGXzJYekdOS1ljZXJZbXBxeXZieHFjUVFteVhkOHo?oc=5)
+2026-08-20 16:04:51,860 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:51,860 [INFO] Progress: Collected 150 non-null articles so far.
+2026-08-20 16:04:51,860 [INFO] [151/250] Scraping: HBM으로 AI 메모리 잡은 SK하이닉스…이번엔 ‘데이터 길’ 뚫는다 - v.daum.net (https://news.google.com/rss/articles/CBMiT0FVX3lxTE50QXJwenRYMXl3NWdZVmRSb3VncHpnaXB6OElWRHQ2RDczQXFMTE0zZXE0V3JzN0NBTHNqeTF1UDlCaU1lb1dHTjNBSVAyTG8?oc=5)
+2026-08-20 16:04:54,228 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:54,228 [INFO] [152/250] Scraping: 엔비디아 실적 기대감 고조…“저평가 매력에 AI 생태계 주목” - mstoday.co.kr (https://news.google.com/rss/articles/CBMibEFVX3lxTE1vc1NwUE00VEdpbjFEbkNwai1XOWMxNTVRR3FBMHE3UGc1WFh4WXhZdnVaZExIeDZMNGxSZ0VEU2x0QXhHcmlMeVVTUndSVlFKYXBpWktSWXprdVlGZXI0cnJ2c3VvY2QxemxETg?oc=5)
+2026-08-20 16:04:56,388 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:56,388 [INFO] [153/250] Scraping: 가온전선, 美 초대형 AI 데이터센터와 버스덕트 계약…2000억원 규모 - 미주중앙일보 (https://news.google.com/rss/articles/CBMiYkFVX3lxTE1CaTRWNzA2SzRuTHQ4UVViSEk0ejNoeVJmWk82Mko5WGgwcVpqTXMwTlNrMzJiaG5oWmpTNmZQRVE2RGlBYi1jbFRUcWxxWkppMHlDT0NlOGVnMnYtVFE3R1d3?oc=5)
+2026-08-20 16:04:58,872 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:04:58,872 [INFO] [154/250] Scraping: 대동의 귀환, 대구 제조AI 대전환의 신호탄 - 세계환경신문 (https://news.google.com/rss/articles/CBMiX0FVX3lxTE9paUt3TVhBSDF3UkhXOGJrNy0wVUNvLUloQ0lpcnlrbTl0OE5TUnVleVFsQlFtR3pjNVJTMDQwcU9sb0ZjN190RzZLYlV3RjhTSVVIX0pvUHM2WEFiRGNN?oc=5)
+2026-08-20 16:05:00,903 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:00,903 [INFO] [155/250] Scraping: '독자 AI' 2차 평가 세부 순위 공개…SKT·LG, 각 2개 항목 1위 - 뉴시스 (https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RN1NzcEt3YzZUaWdSQk5WWmpkTF96ZGhoTFptSzhLUEt2ZlNzcHlRR3FMYzdhVzNfa3h0OFFfU3g4TjQ4OHp6S2M3aTBab1ZDMkhpZG9wTDZrOXVQby14RtIBeEFVX3lxTE1UaXlGb0tFV3pDVXFEVjE4S3hxOXpBUWc2LVRhQWFya1hkSVU4OXBBZ0xWMmp1dWxyd1dFYWhBQjJsVTg2MFlKQUZsTHdOR24wd3ZqTktOM1cxc3cyN0paRzRvNUd3S0xpUmxVNkt4dlFpV2VlLXNSYQ?oc=5)
+2026-08-20 16:05:03,203 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:03,203 [INFO] [156/250] Scraping: 메모리반도체 호황 지속에 회의론, 투자 전문가 캐시 우드 "AI 기술 HBM 의존 낮추는 방향으로 발전" - 비즈니스포스트 (https://news.google.com/rss/articles/CBMic0FVX3lxTE9LY01NVzJmaWlUREVzT3R3WWdvUzB3bW1nd3lCcmZvcmhrVHE1b3BNLUZUTXQxY0o0RVFQNDBEdU8wX0wyWjJnUGw0bXJNZmdZWnNvY3FDWnNkRW9JNXhCd0R1QU44T0laNWdNYTdHR0RhZ2s?oc=5)
+2026-08-20 16:05:05,532 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:05,532 [INFO] [157/250] Scraping: 실리콘밸리 기술 경쟁의 중심에 중국 인공지능이 자리 잡고 있다. - Vietnam.vn (https://news.google.com/rss/articles/CBMilgFBVV95cUxPbW1WN29tZTV4WXFJcDBob0JLcTNqTllvbVdFZ2w2SmFwZ0N3VGRqMVJUSUVCcFExTnI5R183Q0hoMDNRejgzQ19JXzIyb1lGVW9YUS1xNjFVRmtZdE5lcU9remlpUVhnR2JVZ2M4LUVMQjlVY1g1MHhjcnFkdTVaODZ4aDhVSFl2NFdYdWxiM2xBYjdrbWc?oc=5)
+2026-08-20 16:05:07,902 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:07,902 [INFO] [158/250] Scraping: [목요칼럼] 인공지능 시대, 예술은 무엇을 향유하는가 - v.daum.net (https://news.google.com/rss/articles/CBMiT0FVX3lxTE1TeHNURmhpQVlsazlfRG9Xa2RBNFdGNVgtZEdIMmlfekcyeWsyQ1BVdDR2eDVpNVpIMjcxRUFoQUxjc05NQnQycEV2blNQcmc?oc=5)
+2026-08-20 16:05:10,258 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:10,258 [INFO] [159/250] Scraping: AI·K콘텐츠·첨단산업 융합…상동구역, '콤팩트시티' 재편 - 뉴시스 (https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DYVdYTmN3cFdqMXlrVndqMXhtZThmcU5NLTk5SThuaU9QaW9rNjd6djU4TFRVMGN6anJQcVVpRWJaY0tPeVBsRWZVSF9jYkx1SEdOT1dESHUtZmpYaUpER9IBeEFVX3lxTE4tUVNpeW4xT1p1N0VWdWpyT29ZMUgweXlqWXFFOFlYekF6a1NGMS1henpkaDVnQThSUGRtM2NDQWc0STk0R05kZFpHRkhhNUFGTXM5QnMxQUFBMWJyUHR5azBHNDhhWHgyYi16Um83MlFCUFlmSEppRg?oc=5)
+2026-08-20 16:05:12,619 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:12,619 [INFO] [160/250] Scraping: 부평구립 갈산도서관, 인천대 문헌정보학과와 손잡고 ‘나는 인공지능(AI) 화가’ 프로그램 운영 - 인천의소리 (https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wckVFUGY3XzJRNGdIWGFuUTByWWRpa29yYnFBQ3RKZ1NKUUZQcUZQR3B6ZDJQMFZVVXlxLTZVWmhLMVVmaG5KOVlGTHI4am5GVTNYRGNyNG5yYXVhQ2dUcHdwOWpPaVU?oc=5)
+2026-08-20 16:05:14,626 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:14,627 [INFO] Progress: Collected 160 non-null articles so far.
+2026-08-20 16:05:14,627 [INFO] [161/250] Scraping: "AI가 시킨 대로 약 뿌렸는데"…中 농부, 축구장 14개 참깨밭 농사 망쳐 - 뉴시스 (https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQTEU0S2o5Q3Q3UE5mTDRPajlNdDRiYmNBQ21Mc05FS2FSWFd1dmcyUmxlQXQwQ3hZMWJValkyaC1qa2E2NW9ra2VGZ1dXT3V5MnlSWW9BQlFobTBnWDJGbdIBeEFVX3lxTE56Q0xHTXF2NTl1X1phdnFENldNcmxfbWVZc05OWERDOXZuc1JsWEhaZ3hYczJFQkhubm1UbUEzb0JEMVNqMWlvWlRjdFRWRlpLMU5YYmVhZ01WUHE5eXRQY2ZLYWZrVFlwYl9yM2g4bmlzMUxtakFMbQ?oc=5)
+2026-08-20 16:05:17,028 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:17,029 [INFO] [162/250] Scraping: 'AI 페스타' 참여기업 모집…제조 AX 기업 46개사 부스 지원 - v.daum.net (https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Vb0JKMnExQ3VRZkFsM1ZudndJd3BLRktmbTNwYi10R1VYWFlfemJSUTFlWWZ5Vkw1UlZVbkF0d3hORkZaMUFrQkNvbDNQcFk?oc=5)
+2026-08-20 16:05:19,453 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:19,454 [INFO] [163/250] Scraping: 전남광주특별시·중 광저우시, 인공지능(AI) 주제 '한중 학술포럼' - 네이트 (https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NTHZLMkNlSVJGMDhGQnowZnFFS2pHelM1RVJvQk9fR2J2Njlyek82d1RrekpGUXZHaFFsS21TakR3SjJWclRTZzc4UEFBdUVBUThyQWROTjZoeS1SSmM2Tw?oc=5)
+2026-08-20 16:05:21,782 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:21,782 [INFO] [164/250] Scraping: 터키는 2026년부터 2030년까지의 인공지능(AI) 국가 행동 계획을 발표했습니다. - Vietnam.vn (https://news.google.com/rss/articles/CBMinwFBVV95cUxPUWQ3VjJvdWdQY3RuQjYzODB4RF9rS3gwQjZ4TnVkNkFVMmJabVJZZ0F6WGVPR2dRVHJQeHJWUzB6b0ppWGw4YmlkZndfbF95am8yR09TMVV6a0l6YlMxSGVrRlFKZmdCSThLT2lya2UxcjYyT19VTm5TYU5uQ3RubjB5QncxS3YtQ2l6b1o1Y3V6aHZtdzY0ME1ENHppNjg?oc=5)
+2026-08-20 16:05:23,875 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:23,876 [INFO] [165/250] Scraping: 전남광주시-中 광저우시 학술포럼…"AI 기반 교류 확대" - 뉴시스 (https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TdTB1MVZBVVBsdVZNeEZRanB1bk1RSUprRHJXNGdFWWV5MlRmMVAwMjJYRnZrM3lDanVMZDlzWVhKSmo1ZUZ3Y19acW9Kb203QzdJUTFCM054NV9MU09nX9IBeEFVX3lxTE5CalJ5dDVLc1pWUmdoY3BrT0NyczN0b3pZUVlEUkk5RFBKbm9oV0tZZnowZVJYY2VDMVdmTkxPTWRENXM5RUthaVdFeGdyQ1ZWX2xoVllFYnZpbHFlT08wUXZKVTAxUXNhbnoycDBjOW52ZEd0eEtYaw?oc=5)
+2026-08-20 16:05:26,275 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:26,275 [INFO] [166/250] Scraping: “삼성전자, 금리 우려 과도…AI 투자금 3년 내 회수 전망”-KB - 마켓인 (https://news.google.com/rss/articles/CBMic0FVX3lxTFB4bDJPemJqSVZYUVBYcHJSeWdaUW1hUWZpS3JMZFJjME5UdEJTeHBTdFBzcTdic0xOU0lmTmJ1TldTMnpYTURJSDh2cWUzU2h2RzBWSFUyUkFPSG90UFZvMHRmTjlQTzhJVUc3TTItc0FKTlU?oc=5)
+2026-08-20 16:05:28,827 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:28,827 [INFO] [167/250] Scraping: 아크릴, 국제 병원·헬스테크 박람회 참가…의료 AI 풀스택 공개 - 뉴시스 (https://news.google.com/rss/articles/CBMiYEFVX3lxTE9naEJkNENFeDRxM2Z4eUxaODBXZTAwOVZGMEtGeEZMOXVRME9BQWlBeXBQdURtWnloNGs5UDNJc3NudGFwOXhLYk0tclBIMVoxSkp5NXBmUXFIN2J4YWN1ONIBeEFVX3lxTE9PWnh4d1pYYnQwRUQ2VlFEU3RwVEtPYWs5Q0o4U2VXT29ScnRiVTJYbUw1N3FVY1gyWUZScUs3X1R5a1NvS24xQ3lzT0Q5RUxZTC1uWTJsWnNMWkpoQW9SLXpXLW9aanR2VFBCLS1CRnlkUnhja2VlMw?oc=5)
+2026-08-20 16:05:31,174 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:31,174 [INFO] [168/250] Scraping: DNC-IRAI는 로봇공학 및 인공지능 기술을 습득하는 것을 목표로 합니다. - Vietnam.vn (https://news.google.com/rss/articles/CBMikgFBVV95cUxOblNBX1FXS0lwWnRjSmE4ZmZGLTZySWI1NWg4aGh3RUZNelAzRzBWelRtdWxJNkRBMW0tel9BWHBSZDNWV3NBZE9NTXlCdktsNTlpVmtLeldWeWJEZEFfbTNFQ2pVMFFHVzJIQm5BUTBabDdUa21hUTViYVFST2NOWjNlWkRpdFd2V3prS3NoQkRXQQ?oc=5)
+2026-08-20 16:05:33,306 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:33,307 [INFO] [169/250] Scraping: "스마트글라스로 부정행위"…금융투자분석사 시험서 AI 커닝 적발 - 뉴시스 (https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KazVya2g3S01OcTRfa3VfWjhFU0t4anhNNDRha2ZEdG84ZEp4c09tbzM2aXhrOUdSeDBnbVRJTXhpMGlYZlBQazRFRlFwVU9IYkptN0l6aDNDSFFzaUtxeNIBeEFVX3lxTE43cHV4alhOTE5zeUpWVmtEbm8yeVhVbXlBaWI0b3hiNFJWT3VDSXhxRW9zd0Q3YlNOSkpMdHEwM2dJN3YzYVg5RlRhUWxMYXd6cUp4dnpQMmFDaGtmczlIeUFjWE5DNEJ2VFRSNkZNWHFGV2Q2WFJaTw?oc=5)
+2026-08-20 16:05:35,305 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:35,305 [INFO] [170/250] Scraping: 한국 표적 삼은 北 해킹 ‘최다’… 인공지능(AI)과 딥페이크도 활용 - 채널A (https://news.google.com/rss/articles/CBMiXkFVX3lxTE1Ra3VUVG5WQ2VKbmNwclhIOUpQUGZJQnpQOTM0TWkyYW11WURadkNSdzNwRVBSOFNtVk9iZHRvLV9ZZFBXNkUzWEdkRmE1VXA0WDZlZ2F3UUxHRXNVOXfSAWNBVV95cUxQY2ZidUxRT0F3R0RhWnBzOVVkYmhfdy1OZFFwWmYxanZFdW9JTTVpaklGM0JWWWItV0RaUnBKV0FvRGc2a2lwOTVSYnBnTTJuVDJNcGFEUk5IMEdRZWloUVRyVlk?oc=5)
+2026-08-20 16:05:37,793 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:37,793 [INFO] Progress: Collected 170 non-null articles so far.
+2026-08-20 16:05:37,794 [INFO] [171/250] Scraping: ‘인공지능 시대, 다시 독서…기술 넘어 도서관’ 김포시, 2026 김포독서대전 연다 - newszoom.kr (https://news.google.com/rss/articles/CBMiREFVX3lxTE94M3hzdlR2ZFZ2U3pKZFJaVV9YbGNHMzkwWFNYSkdDcFdvS1FNeXl6bU1fWUVYaGRSNXFqN1E1WnlWcEU2?oc=5)
+2026-08-20 16:05:40,163 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:40,163 [INFO] [172/250] Scraping: 조선대–인공지능산업융합사업단, AI 기반 웰에이징 협력 업무협약 체결 - 스포트라이트유 (https://news.google.com/rss/articles/CBMivgJBVV95cUxNVTJGckNrV1BESXl1VVY4VUNZYl8yZ2llT0M5Z1FJZlJkNWl5c2RwOXQ0QVlQUGhpVlRfdFlLTDdLb2xOeW93Y2Ezck1YS1JTTDJpRl9Gam15UEs1elJqbng3MjM1VjRNY3RTODlkVE1LYkl0SGUyaEdKMGo0WDNjSkVJZkNyM3I0QldqbE1aRi1JMjBXN1NDLUVmSEhfQ3ROZEg1SS0xTTJqTVNiVlZhaWpfbDFob0pXa2hkOV9hYUdPVF9EM0JVMHJSWjBpVTltaTdKU0gyWUROUlRrZ0lKejFCZ0ZYY2x1bzRWOHBMX25QYzNTdEY5eUFzYUN1SEdsNGJsTDJ1QUFFT0RPbkdGRGh2OWtjZmNfQkQzMkxlTVh2Q0pvNUJDYXd0OEFGZUtueC1Vay1zT0JNYjJaYmc?oc=5)
+2026-08-20 16:05:42,220 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:42,220 [INFO] [173/250] Scraping: 박수현 충남지사 첫 유럽 출장… 외자유치·교황청·인공지능 협력 노려 - v.daum.net (https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kamlYdXA3VDdENGN3Z0hhTDR4MFp4OXZaZmtLZUFpUE5zY3p1YlE5YncxZWFXQzJvZzMyT2lWT2JmLTZ0VXkxbFYySGRwSGc?oc=5)
+2026-08-20 16:05:44,218 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:44,218 [INFO] [174/250] Scraping: LPBank는 인공지능(AI) 기반 솔루션을 통해 은행 산업의 디지털 전환을 선도합니다. - Vietnam.vn (https://news.google.com/rss/articles/CBMimwFBVV95cUxNNkY5S1k2amxkWVJtZEE2M2xTVlJfTURkSVA2b3pPSzQwbmhhZlF5U1BUWkhCMDJZXzczN3R3eFJuQW1ZX0JJa05EZk1zTFBYd0VKV09QemJpbm1VRXpoT0R4S25vNmVvcXNxRjl1V3YzSndBZDJUajNnUVNwU1B2Njd2ZXgyM242WkpBSFA1M1pRRUxRdHU5Wm4zTQ?oc=5)
+2026-08-20 16:05:46,611 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:46,611 [INFO] [175/250] Scraping: [아침을 열며] 인공지능(AI) 온톨로지와 건강, 나는 얼마쯤 건강한가? - v.daum.net (https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IRS1Ud012M3ZUZklRdlBRbmlEZFVQNVZ2cU9ETjdaMVBNVGNsQU1Nc3dTclRFcS12aE54VDBQOGotX19WS0NnY0MyaUtrUDQ?oc=5)
+2026-08-20 16:05:48,585 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:48,585 [INFO] [176/250] Scraping: [아침을 열며] 인공지능(AI) 온톨로지와 건강, 나는 얼마쯤 건강한가? - v.daum.net (https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ZRmxuclRFQm5ZUXJ0Sm5GZTdSM283Q3JocXhfYVhMQ1d6eThFUnZkRFU5R3N5a21aMkQyZ0NzaTBxcHdlQmp6VjF6SQ?oc=5)
+2026-08-20 16:05:50,592 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:50,592 [INFO] [177/250] Scraping: "이것도 AI였어?"…드라마·예능 장악한 인공지능 기술 - 연합뉴스 (https://news.google.com/rss/articles/CBMiW0FVX3lxTE11NVpDYXFxX2UteS1SWnQtanFXWi1xbk8yRTRqa3dhWXNGNk5lbkJNY1MyTUJZTGNzNUNUa1pQMkFMZHB3aTVNQkpyc053N05IWVRkRmt3eTBBWHfSAWBBVV95cUxPcmlJZTBfTElVQnhOMXdfXzl0bS1adDlfOGtBQ0dta2xTUTEtbXV4MXN5UzliNXRyWlk1MjIzaGx5ZzB6U0VRWkY4M1R0MkUtZk01cWd5ZEVDNWZkaGhJRWI?oc=5)
+2026-08-20 16:05:52,759 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:52,759 [INFO] [178/250] Scraping: 중소기업(SME)의 74%가 인공지능(AI)을 기초적인 수준에서만 활용하고 있는데, 그 장애물은 무엇일까요? - Vietnam.vn (https://news.google.com/rss/articles/CBMikwFBVV95cUxQLXRBeTV1RjUxYlFiSkhvTmg4aXp6b2VsX1V0c21aSFFIbXlJcHBpN2ZmTDdSVzliRFlLa3JKVllUVmR0c1NWQ3pRV1FTckhlNGxabTVkTDVJY1FyX2d0M1g0SWpScmtGdk8wS3V3aEd2d3lOX19ac1Y5cE53Z0pWSFRCN0RGNmI5NVVGRVNGSEpyb3M?oc=5)
+2026-08-20 16:05:55,102 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:55,102 [INFO] [179/250] Scraping: 부평구립 갈산도서관, 인천대 문헌정보학과와 ‘나는 인공지능 화가’ 프로그램 진행 - 웹이코노미 (https://news.google.com/rss/articles/CBMickFVX3lxTE5YZ2hjSG96NHJFQ01jX0RNM05oc0xvazVlVzN3WHdjUVpYTGx2dnVFVnV6VWZ0U0hFVVE2b0ptNjFHUnpsS3owUHN0YTdVcEpRaTMyNFpZX1dLNjRpWkxoYkJMcHd4S25JWHR6OENwY2tmZw?oc=5)
+2026-08-20 16:05:57,104 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:57,104 [INFO] [180/250] Scraping: 부산시, 산복도로를 구석구석 누비는 한글햇살버스 본격 운영! - bvba.org (https://news.google.com/rss/articles/CBMiakFVX3lxTE8wMWo0WkxmVFZfZnhhT25TTm1sU0lHMWZDMVdNRE1XWDcwUUpabUhhc2d4cXJfYnpJcUlVY1psRmVMMHFqNUdNdC1IdWRoOGJxenVXcURGb1EtMnBnR2R4d0VJdFBndnNVUlE?oc=5)
+2026-08-20 16:05:59,067 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:05:59,067 [INFO] Progress: Collected 180 non-null articles so far.
+2026-08-20 16:05:59,067 [INFO] [181/250] Scraping: 인공지능(AI)이라는 이름의 오해 - 브런치 (https://news.google.com/rss/articles/CBMiSEFVX3lxTE5SNzg2LTlCY0JzM2RJTHhweHJIaUVwRkdPZTAwZjhoSU44SUV1TXNfWUl1Qi1Nd3lnUW9EWVNXY2lhc09JN3NiVA?oc=5)
+2026-08-20 16:06:01,066 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:01,066 [INFO] [182/250] Scraping: KCC건설, AI로 외국인 근로자 안전 챙긴다···10개 언어 실시간 번역 - 네이트 (https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Bb1J1WTZRcW5uNXJJaElzZ0REVDcwb0tmTmFodk5wdTFrQVBXOW1CYTlteTVkcjRJRWVlN2RkZW1XMGVYc3U1b2lBZHZLcmgxYkxJRENiSUVaZmdOY0ZaYw?oc=5)
+2026-08-20 16:06:03,054 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:03,054 [INFO] [183/250] Scraping: 러시아 구글의 과감한 탈출, 엔비디아가 선택한 인공지능(AI) 클라우드의 신성 - 네비우스 그룹(NBIS) - 네이버 프리미엄콘텐츠 (https://news.google.com/rss/articles/CBMihgFBVV95cUxOVXRKWjlReHpleHRSQXMyRUR6VmRUQUw3ZGpJQ2M3Qkc1MFR3bjA0X0RQZnFMMXFINnJVTmhZRko4ZUlLR3ctUWxpRDJrQkNHdkFWQmVSVWU1X0llcGpaZzdzXzNkMzdORF8tX2txNVZYd000emV2aTJuQjRoTFcwWkVjQ2FVUQ?oc=5)
+2026-08-20 16:06:05,418 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:05,418 [INFO] [184/250] Scraping: 금융감독청(FINMA)은 은행에 대한 인공지능(AI) 위험성을 경고했습니다. - Vietnam.vn (https://news.google.com/rss/articles/CBMifEFVX3lxTFBHN0QxVUZEWXRpNFZnejhpMkhwMjV0cUMwOWduME5WMnNmbHNiQVRWaFJjTkEwMElPaS0xLU14OWktT3VjMmQzcGR5cFQ1YVVmSy1Manl3dFNPM0U0MG5RR1FOQmd1SF85ZVlXTjN4UGEtSXZ0RnJNTWFjMDU?oc=5)
+2026-08-20 16:06:07,865 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:07,865 [INFO] [185/250] Scraping: 인공지능(AI)이 중국 반도체 산업의 급속한 성장을 견인하고 있다. - Vietnam.vn (https://news.google.com/rss/articles/CBMidkFVX3lxTE9ibXAtMVJVOGgza1ZLcEdLSGh3MmNZdHp1V1NjY2dnVmtsc1hYdUlhdk9rTVYtdGZPd05iOGl6OWhkbmllTDBiNlpDM2JkMnROMUNtM25MRlJVUWV0UmFVMTJub3IwRkRJRk8wSGpjZVlsNC1qOFE?oc=5)
+2026-08-20 16:06:09,978 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:09,978 [INFO] [186/250] Scraping: 대동, 중국 공장 철수 800억 원 대구에 투자 - 한국경제 (https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfYk1yWDN3ZWFPZko4d0dWdGV1MnZmbWxOWlpPUERpNFR0V29wYUx5UmNhRGVzTjJ3bmo2ZDJhaTRjeDNOZU82ejBlcFk4dkNhNkNHcWlhWURtdw?oc=5)
+2026-08-20 16:06:12,202 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:12,203 [INFO] [187/250] Scraping: LPBank는 인공지능(AI) 기반 디지털 뱅킹 솔루션을 2026년 은행 산업 디지털 전환 행사에서 선보입니다. - Vietnam.vn (https://news.google.com/rss/articles/CBMivAFBVV95cUxQQTF4S3lOR1hTOVZoYVRyM2tMSkxlSjAtRXMxUFV0bnpqOVNDbGNVSHA2dS1uWDdIcng3RUlFTDBLQWRDUjhybDVPdk9VdUR0MFlZNHRSYkZYR25Gczk2VnlTM3E3cnBnRzJXSTQwelhWX0JjTWh0X0NfVk45UWJjbC1lZkdfZHI4azVqdUlnRGxoRlVjdFVtaWlpdkVCb1gwcE56NVhOYWk0NW9qcnFBUExOaGgxMWVMQndSVA?oc=5)
+2026-08-20 16:06:14,589 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:14,590 [INFO] [188/250] Scraping: AI 해킹: '킬스위치'란 무엇이며, 인공지능의 공격을 막을 수 있을까 - BBC (https://news.google.com/rss/articles/CBMiXEFVX3lxTE45Y1hPVFc0bTF1azVCUThkSy1YRXFIdGl3R1lpeGJITjR3aERkbE43SXl5VlFTeHYzVHhMeEUzRjdsYnNnelhYM0tIMjhCRkk1RlNkWkVFTlgxMmZ20gFiQVVfeXFMTm9lRXpQWW5Fb1FqSGUzMFdYN1hPek1UX0UwT3gxY1dwOUZQbDF0R3Etb3VjYlBoVlV3enZ3eGMwVXNVajdfNDF1NFJDblZkOXRZdlZHUGg5V0t1Zm55ZHM0ZWc?oc=5)
+2026-08-20 16:06:16,607 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:16,608 [INFO] [189/250] Scraping: 중국, 광물 탐사 지원을 위해 인공지능(AI) 도입. - Vietnam.vn (https://news.google.com/rss/articles/CBMifkFVX3lxTE1mdnF5N2pHcFJpNWp5OTJNRERlZExjLVN1VFFKa0QxeUpFQ0duSzdSd281ZURNeWw3M0pnU1lZa0RVemhfLWNISHhxaU9UMDZZbWNLZ2w2MDdOejdVanJxbVdYMkVBeXVNM1hyRnJ2UEctLU4wXzZwbWN4UmpPUQ?oc=5)
+2026-08-20 16:06:18,995 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:18,995 [INFO] [190/250] Scraping: LPBank는 인공지능(AI) 기반 디지털 뱅킹 솔루션을 디지털 전환 행사에서 선보입니다. - Vietnam.vn (https://news.google.com/rss/articles/CBMimwFBVV95cUxOZUY5VjByNzRzWTFCeDZlOElLcHdrV2xDdkVnMzBlWGowaHI3QTJodzZFYUNNSDFudFA3elFrVEtscHY2blpzeFNfQXNSYU5GanF2bUlnVzE4RDljZGM0LVUtdUhwN0p3cWQtUHlqc3NNX1Z0ZHFZeGZiTUR0VThMMkNRR0h6ckVSUUhSR0l2UmdhUDdCa19yb1F1Yw?oc=5)
+2026-08-20 16:06:21,421 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:21,421 [INFO] Progress: Collected 190 non-null articles so far.
+2026-08-20 16:06:21,422 [INFO] [191/250] Scraping: 교육훈련부: 인공지능(AI)을 이용한 학습 및 연구 부정행위는 8월 15일부터 처벌 대상이 됩니다. - Vietnam.vn (https://news.google.com/rss/articles/CBMinAFBVV95cUxOMXdENlVEZWtXaXJpWTZnZjBGOFpzN3lseEYtLXYtSUhFWU1mQUdlb3p1VXZ0LTRRdXNyakpNTHF4S0laeTJDdFphNjFSSUxhUVZWOWs1VkhsTEowV2NhNUE5RHVGdGhMVTh4U0VkRDZHeTB2Nkh4UlVKVVByYUo3Z1g2c2N3cER0aGV1TUU2aXItMlFEN1U1a244ZEM?oc=5)
+2026-08-20 16:06:23,446 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:23,446 [INFO] [192/250] Scraping: [기고] 인공지능(AI)과 법제도 - 전자신문 (https://news.google.com/rss/articles/CBMiTkFVX3lxTE9YOFBKSl9VOW1wLWZfRzUtbVFBX1dnakZ1R0daMjA3aUZUTmpQM01NVUtVYkE4MlRqc01Wb0xvcHZSWlFWWHIyU0RIRlQ5UQ?oc=5)
+2026-08-20 16:06:25,435 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:25,435 [INFO] [193/250] Scraping: 람동성은 정부 기관 업무에 인공지능(AI) 기술을 도입하고 있습니다. - Vietnam.vn (https://news.google.com/rss/articles/CBMilAFBVV95cUxOUENSMnBac0JMRnJmeTkya1hJQ1FTVGlBNXQycm9jZlBMRWpNWFFiMUUtV2tkTzd6Ni11ZjF5bnlfZy1BX19CSTZEc1hjMDFVYV9FZlVmalVMU2VzNkYwNWl6NWpNNWtOaVZ1aFRkUXMxcENtajhYT1VOckprVk0zY2N4cHp2UnlaQXhrRHBhRlVmWXlM?oc=5)
+2026-08-20 16:06:27,874 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:27,875 [INFO] [194/250] Scraping: “인공지능 AI로 똑똑하게, 휴식은 아날로그 감성”…지금은 ‘이원적 관광’ 시대 [여행+] - v.daum.net (https://news.google.com/rss/articles/CBMiS0FVX3lxTFBKZzZnNnd0dURlTWVteGdUUGhONnNZSm9XQjNfLVBwZnUxVERWN0xOMWxQdl95d2d2UWVsRjUwQkt0RzhqeXFBV0MzTQ?oc=5)
+2026-08-20 16:06:30,261 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:30,261 [INFO] [195/250] Scraping: 하노이시는 인공지능(AI)을 활용하여 잠재적인 전기 안전 위험을 경고하는 시범 사업을 진행하고 있습니다. - Vietnam.vn (https://news.google.com/rss/articles/CBMikAFBVV95cUxOblVDLVZla2dEUHlSUDlleUxnUUNZQmpORFI3RlcySXdJRFh5eU5qZ095SWk3RTg3ZHo3WWZ3UlZnSmkycUI3TndZbDZsSVZmd3psbWtTOThlbjdyd1hXVzV6NGpSTXpuUDN5ZUZLRWE5NXFMejc1Zy1uWVRwYUhqcEctZjhnRE01d2wtTThyME8?oc=5)
+2026-08-20 16:06:32,590 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:32,590 [INFO] [196/250] Scraping: 암호학 및 정보 보안 분야에서 인공지능(AI)의 활용을 촉진합니다. - Vietnam.vn (https://news.google.com/rss/articles/CBMikwFBVV95cUxOcmU5V3otWm9oYW9xOUZOWTNJOHRGRWxqaUtyMlBaNlc4VjlzM1FmOWhqcmt1Z0FnYnJCQlFTbzJtcGNyYlJfU3VHc0JpWlVvRVg4N0M1aVNHR1dOX0NXaGpkRDVaV2ZhZW9LaUNOaDFhTVRpemJGbW9zeVlCbFk4T0w5SHFYLUpUY0swbTE0NUNUSHc?oc=5)
+2026-08-20 16:06:34,965 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:34,965 [INFO] [197/250] Scraping: “인공지능(AI) 활용으로 업무 방식 전환 본격화” - 전라매일 (https://news.google.com/rss/articles/CBMiUkFVX3lxTE5HNXdlZnR2Y0dlU0RRUUpGM1NsNGMwMGQ5WmpaQV95Tkp1WjJBVEpFaHVWODFFUFd0QkxaY2ZQd1dFbUdpMXpIbHBsbDkwdW9mREE?oc=5)
+2026-08-20 16:06:37,284 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:37,284 [INFO] [198/250] Scraping: 심평원, ‘인공지능(AI) 대전환, 보건의료 혁신의 미래를 열다’ 주제 국제 심포지엄 개최 - 전북도민일보 (https://news.google.com/rss/articles/CBMihwFBVV95cUxNd1hNbk9CM2VtaWlpLVNWY3RDNWZJWVN6OW5uTGpWLThOZlljTUVfOTVLMklEaEdDdlFYVlFTMHJnajBGczNmNjhWdGZCa3NFMkpPdUNJSTVPRlVPR2U3dkRBbm9adFNGVWZNTnU4SzFJWFVmdjRqbkFIdWJZZmNwQ013WWpZbW8?oc=5)
+2026-08-20 16:06:39,625 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:39,625 [INFO] [199/250] Scraping: 진천군, K-스마트교육 결실… 전국 인공지능(AI) 경진대회 참가자 전원 수상 - v.daum.net (https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vUHFyUEhpbW1yNXRXdmp6eEtwb1ZtUzhVRV8wRUhBOGpfMmJmWlA3alVWN3Jfc2tlbV96ZUtuWDluMklEMEtBUnQtcXc0cWI3aWRfVg?oc=5)
+2026-08-20 16:06:41,911 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:41,911 [INFO] [200/250] Scraping: 성남시, 인공지능(AI)·드론으로 포트홀 잡는다…도로 위험 선제 대응 - 한국방송뉴스 (https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtWVdlQlBjc0RYS1dsRV9Hb0MzdWxYczloSFVPV1JqUXEwOHNnLTlMQmNZb0RYY01EaDdwZ0VfZVktWWhQUXc0UWxCRG9PVjFuLWItR2YxbTd5MHlqYXc?oc=5)
+2026-08-20 16:06:44,046 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:44,046 [INFO] Progress: Collected 200 non-null articles so far.
+2026-08-20 16:06:44,046 [INFO] [201/250] Scraping: 진천군, K-스마트교육 결실… 전국 인공지능(AI) 경진대회 참가자 전원 수상 - v.daum.net (https://news.google.com/rss/articles/CBMiT0FVX3lxTE5kMEN5RnBZc3ZzcFVhVHFxV19sMzVfbmlBOTBEaGlWZkYxUVBRYzhMMlR4R3BUSkgzQkJ2dVk2djNLTnpValF6VFBUWWdSU3M?oc=5)
+2026-08-20 16:06:46,422 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:46,422 [INFO] [202/250] Scraping: 인공지능(AI)이 안부 묻고, 위험 감지…용산구 스마트행정 주민 삶 바꾼다 - v.daum.net (https://news.google.com/rss/articles/CBMiRkFVX3lxTE5tc2xjaXBaWVJ1cFFzaktuYjJmNFp5LTlteDk1TnN1eGZjTUh6WGdVYnVOM3ZJVjVicHQ5a3pQOFBjak5TbWc?oc=5)
+2026-08-20 16:06:48,774 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:48,774 [INFO] [203/250] Scraping: 경북도, 인공지능(AI) 기반 다크팩토리 시대 앞당긴다 - 데일리대구경북뉴스 (https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vdW1Ucnp3NXFCbjNHc2lHbHVmSFI5Tk5jYkRlbllCTW9WUHJKYmVyWHB6ZXJfc2hkU0hpdFNkZU9kU2c2TEc0U1NtTWtnbHN0TzdyekxIX1dzbFhMZUtQb1gxbmtsdw?oc=5)
+2026-08-20 16:06:51,143 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:51,143 [INFO] [204/250] Scraping: ‘인공지능(AI) 대전환, 보건의료 혁신의 미래를 열다‘ 국제 심포지엄 - 한국의약통신 (https://news.google.com/rss/articles/CBMia0FVX3lxTE5SSS1LelkzMlF2NmFGNEVIVUJidURZT3FtREF3MDZHV2ZTbWtuRnh2QVM1VFJLSlYyMlBYaEZJRG9ZQU5nc3k1RFFzYkkxRXlOTjVUZ09SbUlGa1JGZTJKdHRxOUxkVmR5VWhN?oc=5)
+2026-08-20 16:06:53,142 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:53,142 [INFO] [205/250] Scraping: [AI는 지금] AI 쓰자 직무 경계 허물어졌다…챗GPT 업무 43.5%가 '남의 일' - 지디넷코리아 (https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwRlE2Q1F3aEx4Z2tsX0JZOG1zZncwNk9TVUpTd3Z5Q2xxRFJRMHFkRHBhVlZBSTFnOXZWeEJVSmRpQUpyZGZkYzRoM1luTlhLT1RsUnFR?oc=5)
+2026-08-20 16:06:55,138 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:55,138 [INFO] [206/250] Scraping: 인공지능(AI) 국방 산업 앞장선다 - 한국방송뉴스 (https://news.google.com/rss/articles/CBMiXkFVX3lxTE02eWQ1QmNqMmNmWVpFOFJRalhEZnZWTHBCYzBBeEhhSmdCbk4yalZKNS1iX1dYZGdIdW9wQzJScGduTkRqUFdtSjFPUlhtZno3bmw0RGM5S3NqeW9FTVE?oc=5)
+2026-08-20 16:06:57,126 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:57,126 [INFO] [207/250] Scraping: 인공지능(AI)이 안부 묻고, 위험 감지…용산구 스마트행정 주민 삶 바꾼다 - v.daum.net (https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ySm1qTnhCRkV0MTlINFZJWmRjZTNlaEVxNHQybXFwYXRTbENtYy1Jay10c1E5dkhZSlk1QjZuT3FGREhlZmdfOHRLVQ?oc=5)
+2026-08-20 16:06:59,501 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:06:59,501 [INFO] [208/250] Scraping: 성남시, 인공지능(AI)·드론으로 포트홀 잡는다…도로 위험 선제 대응 - 연합뉴스 (https://news.google.com/rss/articles/CBMiW0FVX3lxTE52YldjY3ZIOFpITFJQcXh1MlFJOVZqdU5EbVRjSkUtS3pKN3NKcVdhVmtzeW1DTXVqUm5wWjlMNTREWHdjY2RlMGlPN0o2WG5Ha1QzZzhmaTNVdFk?oc=5)
+2026-08-20 16:07:01,856 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:01,856 [INFO] [209/250] Scraping: 영주시, 인공지능 'AI 보이스봇' 당직 서비스 도입 - 경북신문 (https://news.google.com/rss/articles/CBMiWEFVX3lxTFAtTXRTc3NRekg1eHZnUEtUZ1VhRlZMM3N4bnR6R2RjRHE4N3J4YnNKblNlcUcya3VpMzVhMDNJdWZ6cldFRGJ6MW82S1FGaHBYeVZGQWxQRW0?oc=5)
+2026-08-20 16:07:03,876 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:03,876 [INFO] [210/250] Scraping: 펜실리아 의료진이 인공지능(AI)을 접목하여 맞춤형 피부 관리 및 치료에 새로운 방향을 제시합니다. - Vietnam.vn (https://news.google.com/rss/articles/CBMivgFBVV95cUxPUWhOUmtTN0ljdFQ5cER3ay02MFAzLVd1UkJjNzJOWTEteUE4b0VHcmR5MU1abjdVVlBjOXNLRm93WkRMUmpZNGtKQ0VTV0NzTVFKZEVuZHZLdTJjd3JPaUNSVjFORVRJUlBXcVRIaGl2TmhGcmgtWDE5NHo2Sk1VbHFsb05UMkRPS29wdTY4R3BrUlNCRUU1VGdmYkpqcmM0ZFRNNml6U0xWSlVYZGZ5amNuRGI4RWktcEdpSjFn?oc=5)
+2026-08-20 16:07:06,389 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:06,389 [INFO] Progress: Collected 210 non-null articles so far.
+2026-08-20 16:07:06,389 [INFO] [211/250] Scraping: 인공지능(AI)이 안부 묻고, 위험 감지…용산구 스마트행정 주민 삶 바꾼다 - 헤럴드경제 (https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zenU2dW1kY3cwTGVYNzk2M3VsYTZENm5hMUZiSDFLWGU4N2xqd0dyUzNaN2d0bTBGSTdaZ1VCZUV3WWZ5bVRjTVdVWmhGZThFbWcxakFn?oc=5)
+2026-08-20 16:07:08,346 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:08,346 [INFO] [212/250] Scraping: 18,700개의 소규모 및 중소기업에 인공지능(AI)을 도입하는 프로젝트를 시작합니다. - Vietnam.vn (https://news.google.com/rss/articles/CBMilwFBVV95cUxNcDREZmV2QUJFRi1iSzdGOUV4ZFJQQkpaSzJkYzJ2dnFNMmlRdzRyWUZ6NVJQWHJqelRuVXRQa1hmX0VQbkJmTGpBaEFqVGpJSlEtX2ZVaGFVNWVYZmtuUWQ5c1NLUWRjbFBxZmFhMHAtN010bHNpYUxqdXU0MzRWb2JHNEVtdTl1VVN4YXZzQzB0ekcybGhR?oc=5)
+2026-08-20 16:07:10,399 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:10,399 [INFO] [213/250] Scraping: KT클라우드, 대표 연례행사 ‘KT클라우드 서밋 2026’ 9월 개최 - 이투데이 (https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pU1ZZTkFIX3dnMU5pbEFUaVRwSUJBSVA5M18tOEdBTHhxXzhjZElRbm9CekQzbDh3QjBRS0FMa3g3cGJhU2VOZ0ZONFM1M0s3SklCRA?oc=5)
+2026-08-20 16:07:12,793 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:12,793 [INFO] [214/250] Scraping: AI 열 식힐 액체냉각부터 클라우드까지…kt cloud, AX 전략 공개 - 뉴스퀘스트 (https://news.google.com/rss/articles/CBMib0FVX3lxTE9Od09qcklocDJ3R2Y0Vjd0LUFWRld3a1ZicUlrN01tQXhjTFVKMkwxVDBCa1B0Z3gydDAwcWZiVHdkc0d3WnZmdS1xUnVPQzFPR1Q0NGpxWXdPYzVNUHNlNXgySVViN3lISTZPSWxlTdIBc0FVX3lxTFBwaVJxVnZFUDc4R2JvYXlxc0xUODVVWGF6VTZYWWEzVm81Q1RMbFB0VFp4NWRFNWoxTTlPOXJtWFREOXpZd2hqdEhPLVdjaURpRGV1ck1GQjFvczhtc19peWR4Mk5Jc3E0NUczY2kxRXBobGs?oc=5)
+2026-08-20 16:07:15,204 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:15,205 [INFO] [215/250] Scraping: KT클라우드, 내달 '클라우드 서밋' 개최…AX 시장 공략 - 매일일보 (https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tWGVucWFDbm80dFEwWjd3RDYteGg3cXFaenZHenoxbXNLQU9kbkQ2SVRHV0xlMWxtX21pTXBmMEpib2RVMFVBWWY2UnJtT2F6alJEckdVNFZDQ01DQkZEYkdxT2s?oc=5)
+2026-08-20 16:07:17,621 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:17,621 [INFO] [216/250] Scraping: “AX 실행은 쉽게, 확장은 빠르게”…kt cloud, ‘summit 2026’ 개최 - 서울경제TV (https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5cmxiWi1qSzRaMkcyLVNGWlJ4TzdvOVFyaUhVSXFDTWZjNnNpWHppWld1a3BfNmVRcmNvSEJxMDNLS2cydTZsd2JLZGszMXpyUzNIV1FKc05aZW5SZENVUDBNd20?oc=5)
+2026-08-20 16:07:20,007 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:20,007 [INFO] [217/250] Scraping: KT클라우드, 내달 ‘서밋 2026’ 개최…AIDC·클라우드 AX 전략 공유 - 테크월드 (https://news.google.com/rss/articles/CBMiaEFVX3lxTE5IRUo5QnRHWUUyRnZ2Mlp0ZmVOSDNfa3h2UXJHTDBxMzZEcUUxT1hGTUpnTkRVckh6RXhrVGtkeUtfNlAtdThqMmxiWlVKZ0x6MkNZWm13RE81WmxMSThwbXdDQmhZOV9K?oc=5)
+2026-08-20 16:07:22,358 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:22,359 [INFO] [218/250] Scraping: “해커들의 축제 중심에 서다”... 데프콘 34 클라우드 빌리지 K-보안 현장기 - 보안뉴스 (https://news.google.com/rss/articles/CBMif0FVX3lxTE5XWlJSR1pGU0l6aDMwOUxWTFBramJwdEk3REY2UW5TTGgyY0FhNHJtMUFuSlVkdVFFVElTemIxUGozNWc3dFp4RXNRVFlaQl96bDd2VkZTNGVBMjNyenJhZjRwRGNPWUcwZEJkN093RDBYUmdqS21CUkRtd09yNms?oc=5)
+2026-08-20 16:07:24,397 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:24,397 [INFO] [219/250] Scraping: 클라우데라, 데이터 옮기지 않고 AI 돌린다…‘애니웨어 클라우드’ 공개 - 뉴스탭 (https://news.google.com/rss/articles/CBMibEFVX3lxTE80RTQxSUVVT1pKa3JWckVnc25HYnY3by1hX3JTYWdNVGVsYmxzVXJVOFVOdlB3aGEtQXo1bU1qOXRsM0o3VzhvdjV4QTVTX2RDNWVwQVNzRDI2T1dUQThHWmFhd21VOVFBcjQwYg?oc=5)
+2026-08-20 16:07:26,792 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:26,792 [INFO] [220/250] Scraping: 클라우데라, ‘애니웨어 클라우드’ 공개…하이브리드 환경서 에이전틱 AI 확장 - 테크월드 (https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rQVdROTdXdjBrNlY0VUkydGVteUh4dl9mSWtvcktrNGFlNFhnYlg5VGNBR2tLN0NVLW5FdGpiNVJ1NFhjRnlDM0ZXRnYyOGIyYVR4ZHdoNGtQUHJKeGxyenpVTW5SR2tp?oc=5)
+2026-08-20 16:07:28,800 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:28,800 [INFO] Progress: Collected 220 non-null articles so far.
+2026-08-20 16:07:28,800 [INFO] [221/250] Scraping: 클라우데라, 아파치 스파크 가속하며 클라우드 비용 절감해 - elec4 (https://news.google.com/rss/articles/CBMibkFVX3lxTE9xZ0pFMTlWYjVybkpsS0lzclJpeG1qTFE0NnRvbkdublNOMzFvRl9jNS1lLTZPeV84M2dldjdDN0JZZ0F6X05TTV8wcDNVT0VNTDFLYXJpM3FpbklJd0ZkanZmWnI5TEZxMS16U3pB?oc=5)
+2026-08-20 16:07:31,236 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:31,236 [INFO] [222/250] Scraping: “퍼블릭 클라우드만으론 부족”…클라우데라, 에이전틱 AI 시대 겨냥 통합 플랫폼 공개 - 아이티데일리 (https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jbE5uTFdka3ZOZ2pSNF9oUjhOSUtmNE9udXNBUDY1QWhsZHZIVFZnNEowUDgtbGFWU2sxRml4NmVDTk9rLWlWV2tJVXFxZHFUaE1wcE9mMHlxOWJ6WUd0c1VRdGZQX2dy?oc=5)
+2026-08-20 16:07:33,600 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:33,600 [INFO] [223/250] Scraping: 냉동공조 설비도 ‘클라우드 자산’으로…시스트로닉스, HARFKO 2026서 SYSnet 공개 - koreaittimes.com (https://news.google.com/rss/articles/CBMicEFVX3lxTE5NYkdjUnkxU05YTmRseHNFWVJVeVNIcmNyQThSbjZkWDMzRG9Db1NSeDJnRWlLTThmbjdEbXVNUGJOM0gzRmpmaGlTdUM5VUNneTNfWHgwVzdvVnQxS0lTQnpfdWdpTHhJOFhEUzJ2Vng?oc=5)
+2026-08-20 16:07:35,642 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:35,643 [INFO] [224/250] Scraping: 클라우데라, ‘애니웨어 클라우드’ 공개 ··· 에이전틱 AI 시대 가속화 - 데이터넷 (https://news.google.com/rss/articles/CBMibEFVX3lxTE1NY1BZcTZNellrdjNaTEdTUktkWURzWWk0c1oyUlVGR2dkMjFMbU1EUEtpOFJfMEowRmR5bFZ0Nnd0anpPak91aGtTRUdDaWxyUDVheldTM0tHX3ZHME84empmblFVN3c0VXhDZg?oc=5)
+2026-08-20 16:07:38,014 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:38,014 [INFO] [225/250] Scraping: Viettel 클라우드 AI 네이티브 및 AI 시대 데이터 보호를 위한 3가지 "철의 방패". - Vietnam.vn (https://news.google.com/rss/articles/CBMipAFBVV95cUxNdGg2NHBSdkE0Ql96SnJ4TWVhMEtfcnFSZFNMLUFHUmZ0ZGRRcXJnX2RNbjhYSlR0dVRtODRpUDAxU1JlVFlrZEhiQURIRUQ0NklwcVRhaWFKNVVCeERDRFJMbC1FRUxPN0FpWW1vWDBxcXJVSENfeDNQNXAwY0hfTlJtajNDYk1fS0VvQnRXVmJMSHJrZmtpMlhybndyTGI5eUlLbg?oc=5)
+2026-08-20 16:07:40,460 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:40,460 [INFO] [226/250] Scraping: [현장] "AI 위해 데이터 옮기던 시대 끝?"…클라우데라, 싱가포르서 새 판 짠다 - v.daum.net (https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwSXRZTXBhU0R3cVItbEpBalVaSE16Unl5RVJPWHRNbEZRYkV3dkdqVzZWdGFxUnd0Wm9HSXV2UDdFQ2g1NEstam9sUi1BUDg?oc=5)
+2026-08-20 16:07:42,847 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:42,847 [INFO] [227/250] Scraping: kt cloud, 내달 '클라우드 서밋' 개최…AIDC·AI 인프라 전략 공유 - 팝콘뉴스 (https://news.google.com/rss/articles/CBMickFVX3lxTE56VHJES1A4MnV2TFRBSnViYmhGSTI1SUUzZHdaWWR4ejlTX0lrcXd2VjdLanJ4b2I0WGZITmVBZ0g4SE1zU1NYR1VwcE1OM0JmQVRjMXFmNmFrb3B5WlFCWWY3bjJIUXhUaFV3aHZ2SjlyUdIBckFVX3lxTE56VHJES1A4MnV2TFRBSnViYmhGSTI1SUUzZHdaWWR4ejlTX0lrcXd2VjdLanJ4b2I0WGZITmVBZ0g4SE1zU1NYR1VwcE1OM0JmQVRjMXFmNmFrb3B5WlFCWWY3bjJIUXhUaFV3aHZ2SjlyUQ?oc=5)
+2026-08-20 16:07:45,195 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:45,195 [INFO] [228/250] Scraping: 청주대, 충북대·충청권 ICT 협회와 맞손…클라우드 전문인재 양성 박차 - 브레이크뉴스 (https://news.google.com/rss/articles/CBMiQkFVX3lxTE82OWlGTG0wZXNhdWxaaElvNTBFOEhaN09OVVlrYk1WLWV2QV8zYmxfMG5vanVCOFFiZFJpNGtpZWFIUQ?oc=5)
+2026-08-20 16:07:47,159 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:47,159 [INFO] [229/250] Scraping: 청주대 "충청권 클라우드 전문인재 양성 협력망 확대" - 충청비즈 (https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GQmVST0dOMGlhR002VlpXeGI1TkJmTl9OZ1luWHZCVXJ1NTZUM1JEUjRJVGQyNXluU29tSDQyR1JQZ3ZtbTJNVU12ZTh5ZlBpekw5VXZtMVVReUJfQkUyR2ln?oc=5)
+2026-08-20 16:07:49,257 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:49,258 [INFO] [230/250] Scraping: 오쎄오, THEO 통해 인터넷 운영체제 기반 공개 경제 생태계 개방 - koreasprint.com (https://news.google.com/rss/articles/CBMibkFVX3lxTFAwMW5BZ2NFMl9uVEtkcWNsSGlKbS1WTW9KdklfRDBmcWVydW1vMjNLOHI0WTdUS3gwcWI4c0hUYUYxNG9wZUpLNG81cTdMWXZIYU9zQ2NySC12THJTU0Q3MGJocEZ4VTB3dXp2a09R?oc=5)
+2026-08-20 16:07:51,644 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:51,645 [INFO] Progress: Collected 230 non-null articles so far.
+2026-08-20 16:07:51,645 [INFO] [231/250] Scraping: 두 달 걸리던 구축 1시간으로…클라우데라, 데이터·AI 플랫폼 조건 제시 - 아이티데일리 (https://news.google.com/rss/articles/CBMiaEFVX3lxTE95cmtTTGtIMFpqcGoxSmdrMElFMzJvUHdEQ2VRendIeVlDVkc4UlBhT05kTlR4RE9VQkg4VVZaM2xpODFkVlVsUGZuNVYwVjhhcmtIUEREeGlHbHJYeXNPUWNOaHVzOEpL?oc=5)
+2026-08-20 16:07:53,663 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:53,663 [INFO] [232/250] Scraping: 크라우드스트라이크 "클라우드 겨냥 사이버 범죄 171% 급증" - v.daum.net (https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVZGpzNXIxcVM1T3lrQ01iU3hSdldxVGVINXFjTnZ6MlpoRXFqUEJ4RHptSlJER293RUlZWkVWNkZoUkJqdHRjYUdsRTc0dzA?oc=5)
+2026-08-20 16:07:56,078 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:56,078 [INFO] [233/250] Scraping: 클라우데라, 데이터·AI 컨퍼런스 ‘이볼브26’ 개최…“AI 성능은 데이터 전략이 좌우” - 아이티데일리 (https://news.google.com/rss/articles/CBMiaEFVX3lxTE82ZHVFNG1paEdjLVg0T2dzbi0yYVdIZndCXzZIWC1Vb09xQ2M4OE9ZbFFOeTc4Y0hmR1BBNHBzc3hMbDVHbkw0eDk1ZlRKcXFZbm8zb2lMSm9FUV9yNjVLUnFWWVRWSkVQ?oc=5)
+2026-08-20 16:07:58,613 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:07:58,613 [INFO] [234/250] Scraping: AI 열 식힐 액체냉각부터 클라우드까지…kt cloud, AX 전략 공개 - 뉴스퀘스트 (https://news.google.com/rss/articles/CBMic0FVX3lxTFBwaVJxVnZFUDc4R2JvYXlxc0xUODVVWGF6VTZYWWEzVm81Q1RMbFB0VFp4NWRFNWoxTTlPOXJtWFREOXpZd2hqdEhPLVdjaURpRGV1ck1GQjFvczhtc19peWR4Mk5Jc3E0NUczY2kxRXBobGvSAXNBVV95cUxQcGlScVZ2RVA3OEdib2F5cXNMVDg1VVhhelU2WFlhM1ZvNUNUTGxQdFRaeDVkRTVqMU05TzlybVhURDl6WXdoanRITy1XY2lEaURldXJNRkIxb3M4bXNfaXlkeDJOSXNxNDVHM2NpMUVwaGxr?oc=5)
+2026-08-20 16:08:00,991 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:00,991 [INFO] [235/250] Scraping: [테크 NOW] KT클라우드 - 대한경제 (https://news.google.com/rss/articles/CBMidEFVX3lxTE9naVhxVHVYR0xnUktGSHliRGtycmxMV3JPV0hhSjFWdmZVLUNMTVRwdjR3cFE3Xzc4UGVyN25taDI2SDRoUE1xX2RTUFVnN0dJLXNfNktnb01RdE1iTzN0M3FKQUpKZlBsYjJtMFdxMV9kMjQz?oc=5)
+2026-08-20 16:08:03,004 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:03,005 [INFO] [236/250] Scraping: kt cloud, 9월 ‘클라우드 서밋’ 개최…AX 실행 전략 공유 - 데일리안 (https://news.google.com/rss/articles/CBMizgFBVV95cUxQNVFrZGp1cTg3M3hVQjE4ZE9mdXhOODIxaTc5TUZqaERfd0hvUEtaTjF3ZF91ZFlvcDZoNXF2SzdnTDhBYUpjY3VGUEdSOHR6ZWR1ZzNXR3JYS2xDQlliLTB3a0R3bUxTRHNrYm11YklRazBDWnJJaVFWaUE4ajZfNkFfV1NULVl0WnlqazlxTVlxejBuWElRb1RWNm1SYno0SnQxanIyVGJBY1pFci0zNEZmYkIwQ1l4emgyS0tyUktlY3RhR0FyOG1FbFlOUQ?oc=5)
+2026-08-20 16:08:05,362 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:05,362 [INFO] [237/250] Scraping: kt 클라우드, 다음 달 15일 'kt cloud summit 2026' 개최 - 워크투데이 (https://news.google.com/rss/articles/CBMibEFVX3lxTE5GUGRsMjhudFVJSHFSTGNJdHU2eEc2UkRSbGUzUVk1V2Zoa1doN0RQMjVjNmRoY3ZnRmhtUHNuYXFUcW5DcTFxZXp6ZWMtNTJWLWpFWEpySVBCNG00dDRJLW9KQjdBZ3ZNN0VJdw?oc=5)
+2026-08-20 16:08:07,517 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:07,517 [INFO] [238/250] Scraping: KT클라우드, 9월 15일 'kt cloud summit 2026' 개최… AX 실행 전략 제시 - 뉴스드림 (https://news.google.com/rss/articles/CBMia0FVX3lxTE8xSXdmbGEzTVlrS3hwZEZxQjVKamFOQXdmeGxlLUtzRGJvRjJZUURmY0dhYkE1cnVYaXlnbHBvNEZVWG9sVnFwREQxWUlGeDdrRWtreFB6RWItNE9kX2VPYXdDN1FLRDNTam5F0gFuQVVfeXFMUDZMQnRoRG9HUzYxck9zMnZ4UVFJU3ZGUkpTQjh0X1FPVEFYNGc2czdPN3JWMUU2YlA4RlluWFVERmdpOXRQODFpX1owTU93WjlFLXNNRFo2QUZ0SzFfb2ZrTkVGajExa3NpWWFzamc?oc=5)
+2026-08-20 16:08:10,026 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:10,026 [INFO] [239/250] Scraping: KT클라우드, 대표 연례행사 ‘KT클라우드 서밋 2026’ 9월 개최 - v.daum.net (https://news.google.com/rss/articles/CBMiVEFVX3lxTFAwcG9QV0dOWFNpQzhmaXFkQ3ZLckxaMFRtejMyNmZ3ZlppLTBiajV1VHM3WHJtRGhCbmN3OFZiZ3pmb3FwMUZEbDM2WFRXb3o2RWNJYg?oc=5)
+2026-08-20 16:08:12,406 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:12,407 [INFO] [240/250] Scraping: kt cloud, 내달 15일 'kt cloud summit 2026' 개최 - 국제일보 (https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCbWlHaGxyZUZDbURBdVFtaEpfNDhfLVJRM0ZaNWZuaFRrb0laSVFqMFM2cW15RUNtdDlmZzBuVG5fdW9kNmo0YWZWV3VFVEN0ZW5sZXNETy1na3l6TnVFYU96WXQ?oc=5)
+2026-08-20 16:08:14,779 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:14,779 [INFO] Progress: Collected 240 non-null articles so far.
+2026-08-20 16:08:14,780 [INFO] [241/250] Scraping: kt cloud, 다음달 ‘서밋 2026’ 개최…AIDC·클라우드 기반 AX 전략 공유 - 이코노뉴스 (https://news.google.com/rss/articles/CBMib0FVX3lxTFBCS1RQTTA3MEt6STBMeUJIVTByV2RzOURVUlVfNlgyazFnZGpVdVFUeUxuWmllVGh2RjkyVUJ2RUFqNDFuN0RJU3JlcEg1cElYTzJ5ZHowSC15MjJuN1A0NWxhRU45UFdBSE1rQzVYVQ?oc=5)
+2026-08-20 16:08:16,993 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:16,993 [INFO] [242/250] Scraping: kt cloud, 'kt cloud summit 2026' 개최 - 한국NGO신문 (https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FTW5xWWZOam5PQTVhZldjRHp3Tmk3VjljdXVjZm5ZR1hSYTRIRDM4bjJxQVBmSFp5Rk82MFN3cExkUUJ1dFVPcHlwY3ktcmdfWE43cHh1ZzU4TVNuRTVUYXFnTzBRVXF3?oc=5)
+2026-08-20 16:08:18,988 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:18,989 [INFO] [243/250] Scraping: 알리바바 클라우드, 1년 만에 韓 데이터센터 추가…AI 수요 선제 대응 - cio.com (https://news.google.com/rss/articles/CBMi0gJBVV95cUxQazNMQmFTbkJzY0NrODRVR0hHY28zYXVrQlFtR3dXTmNPZlJ6dkNpVkpoUjFVMWhQamV1TmRkUDBTNkEzaW5sV2ZDYXZ3YWpiaTN2VnZCa3hlOGh4TGVPMGJUa1lzazVmX3ZtRUlqTl8wQ0Q1QWhITDBkaHc2TmgzLWxEU21pMnpoRmtHdGtuYTNRX05DdUtCMEIyeUtSeWQ4VVZNeXRabzdTdTcyczZhdE1VOGVDQ0R1SWJJUUdaUkhFNjI0OFVJeU5mUHNkZWxkdFZ0V09uVXNtMjJ2ekhnSldiV2hqLU43VEluc2JmSmdqVXBhR3ZWMkhFRTdaLUdZVnREYUhfNE8xOGgxTXZTbUlCRkNwa2ZCVDczZDYwbVptWlZhUThySnBBY0RpVUZ3WU5Lbk5aWU9RV3Zpbk1rckFEbTlCNWMxUjJRSEd6Z2lvUQ?oc=5)
+2026-08-20 16:08:21,012 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:21,012 [INFO] [244/250] Scraping: 클라우데라, 엔비디아와 협력해 아파치 스파크 가속.. 클라우드 비용 절감 - 보드나라 (https://news.google.com/rss/articles/CBMiY0FVX3lxTE1PNzdmRmFaVTFRdWxqYjAyQU9Kc2tCYjJXbXBCVjJ1SXZNMVdMZDdWNmJITGdWUlJRUm1HS1RLT1pSeHF1cDBDX29SNTl0cmdKM3dST3NyZmNPNnlfTWJHUXZjUQ?oc=5)
+2026-08-20 16:08:23,358 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:23,358 [INFO] [245/250] Scraping: Top 20 기업 글로벌 헬스케어 클라우드 컴퓨팅 시장 - Spherical Insights (https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTGZIRVlqcGJuVW5DU21iU1ZZWU5ONHVybjZHa3o0b2RXQVhMWEhhV19HQkljQU5rME1yMjI5T2pnbnFRdnduQ1FjYXhHd0F4VXMza1ZBeGJGbXRqMmotM1o3d2wzS195X2NCa2NONnFzdjdKSkU0YTJtSU96Qm9FZ2t3VjhadHpGMnBmRmFqWGdFUFNoU096WFc3X1pNS3FaeFZOQXVDNnRIUzhOY2pOVjdlclo5cFlCUjZGT2FsdzVhOVFYZEh5OElCTmNSTTFOTnRabnhhejQ?oc=5)
+2026-08-20 16:08:25,368 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:25,368 [INFO] [246/250] Scraping: 이클라우드에이아이(E-Cloud AI)-거창국제학교, 교육 사업 발전 및 상호 협력을 위한 업무협약(MOU) 체결 - v.daum.net (https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vLVhGdF9zN1BYZVZwVjBucEFYLVF5U1NnXzRvSWJKaTRCRmE0R3lKekNLdEkwNV9TWW9WeHJfOWdtY2djRTdVWDQtbkZWb1k?oc=5)
+2026-08-20 16:08:27,753 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:27,753 [INFO] [247/250] Scraping: 세일즈포스, ‘클라우드’를 ‘에이전트포스’로 리브랜딩 - 디자인 나침반 (https://news.google.com/rss/articles/CBMijgFBVV95cUxPeml3TlFsQUVWcXV5UnZ3NVg1ZVp3Q3BzX3ZxUTZmUG1JdG03TURILVJTQWRZMl9PcmNlVVlmNHhJS3JIVC1CZkM0bC1SdTVXV0ppQWdIM1ptQkJoalFOU0hmV2RKUFpyMVlpeWJyMk9xS2cxUmdfUm9fV3JsNWVZY2l1dlpEakZwVFRoVTJn?oc=5)
+2026-08-20 16:08:30,152 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:30,153 [INFO] [248/250] Scraping: "AX 실행 쉽도록"…kt 클라우드 서밋 2026 개최 - 네이트 (https://news.google.com/rss/articles/CBMiYEFVX3lxTE90VTlKV2ZfZzRoX2w4RUUtUS1wQjhiRWdQYUJyZEY5cVplc09TWGxWS3lmSmtUbEs1S1BMTXg4U0NtOFRrcmU2WjlNUDNKeG1GN0F3dE0yREdKa0o1NUtOXw?oc=5)
+2026-08-20 16:08:32,509 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:32,511 [INFO] [249/250] Scraping: KT 클라우드, 내달 '서밋 2026' 개최…AX 실행 전략 공유 - 핀포인트뉴스 (https://news.google.com/rss/articles/CBMid0FVX3lxTE5pWFV6X01iTk1rWlZ6bHFUTHlXQlFwZVVJbVVQcWRMMXdfamkybG5SVG1iS2xsSjd1TlVhZlp2VUhVMG9CWGxYUldFZmNWdUpET1dpWmUzaW5Ec0xyZGdZTmdqdlM2UXFCbmdKSzRNeF9ROTRmazNv0gF3QVVfeXFMTmlYVXpfTWJOTWtaVnpscVRMeVdCUXBlVUltVVBxZEwxd19qaTJsblJUbWJLbGxKN3VOVWFmWnZVSFUwb0JYbFhSV0VmY1Z1SkRPV2laZTNpbkRzTHJkZ1lOZ2p2UzZRcUJuZ0pLNE14X1E5NGZrM28?oc=5)
+2026-08-20 16:08:34,921 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:34,921 [INFO] [250/250] Scraping: KT클라우드 서밋 2026 개최 - IT조선 (https://news.google.com/rss/articles/CBMicEFVX3lxTE9adEFCRENmMmJHQjFHSHVXeDVMbkxjSlhVamZpRUFud3g2NEk1Z05wWThxSGVYSTlpMmtLd1hBcTliU2RDZ0RwTjlhYUxUdVdwQzVhUDJNVHVxd2FqVkhBT2hKWWtadEt0ZEtGNkJ2OU3SAXRBVV95cUxNLUU5NjNBeGdmR2hEQ2w0YXJuQnVrSWU5VlRDV3FnSFFWc1l4TGJVcWExY3pWbW5rUnQxSnBjbmJKWG9ackRqdkd1WVgzX1hhZTJMOXhHT295ZmN2NW5qSFd0b0JPaVlIUl9Xc3BtY1J3UTNIcQ?oc=5)
+2026-08-20 16:08:37,287 [INFO]    -> Scraping failed. Fallback to RSS summary.
+2026-08-20 16:08:37,287 [INFO] Progress: Collected 250 non-null articles so far.
+2026-08-20 16:08:37,312 [INFO] Saved crawled data to project1_info_crawler_resend/data/raw\crawled_policy_news.csv
+2026-08-20 16:08:37,314 [INFO] Successfully collected 250 articles! (Target is 200+)
+2026-08-20 16:13:32,603 [INFO] Loading raw data from project1_info_crawler_resend/data/raw/crawled_policy_news.csv...
+2026-08-20 16:13:32,627 [INFO] Step 1: Removing missing titles and contents...
+2026-08-20 16:13:32,638 [INFO] Step 2: Filtering out very short article contents...
+2026-08-20 16:13:32,640 [INFO] Step 3: Cleaning HTML tags, formatting, and ads/boilerplate text...
+2026-08-20 16:13:32,684 [INFO] Step 4: Performing similarity deduplication on titles...
+2026-08-20 16:13:32,752 [INFO] Step 5: Calculating recommendation scores...
+2026-08-20 16:13:32,756 [INFO] Saving cleaned dataset (total: 104 rows) to project1_info_crawler_resend/data/processed\cleaned_policy_news.csv...
+2026-08-20 16:13:32,776 [INFO] Step 6: Extracting top 20 recommended articles...
+2026-08-20 16:13:32,782 [INFO] Saved top 20 recommendations to project1_info_crawler_resend/data/processed\recommended_policy_news.csv
+2026-08-20 16:20:24,087 [INFO] Loading recommended articles from project1_info_crawler_resend/data/processed/recommended_policy_news.csv...
+2026-08-20 16:20:24,096 [INFO] Loaded 20 articles to build preview reports.
+2026-08-20 16:20:24,096 [INFO] Generating HTML email preview report...
+2026-08-20 16:20:24,108 [INFO] Generating TXT email preview report...
+2026-08-20 16:20:24,112 [INFO] Successfully generated HTML preview: project1_info_crawler_resend/reports\email_preview.html
+2026-08-20 16:20:24,112 [INFO] Successfully generated TXT preview: project1_info_crawler_resend/reports\email_preview.txt
+2026-08-20 17:06:28,375 [WARNING] '.env' 파일이 발견되지 않았습니다. (.env.example 파일을 복사하여 만드실 수 있습니다)
+2026-08-20 17:06:43,426 [WARNING] '.env' 파일이 발견되지 않았습니다. (.env.example 파일을 복사하여 만드실 수 있습니다)
+2026-08-20 17:17:54,320 [INFO] Loading .env from project1_info_crawler_resend/.env...
+2026-08-20 17:17:54,323 [INFO] Preparing to send real email via Resend API...
+2026-08-20 17:17:54,323 [INFO] Sending email from 'onboarding@resend.dev' to 'dlby@gbsa.iceu.kr'...
+2026-08-20 17:17:55,350 [INFO] Successfully sent email! ID: 170a5e3f-38f0-433a-a23a-656df9206672
+2026-08-20 17:17:55,361 [INFO] Successfully logged send history to project1_info_crawler_resend/reports/resend_send_log.csv
+2026-08-21 09:09:57,668 [INFO] Loading recommended articles from project1_info_crawler_resend/data/processed/recommended_policy_news.csv...
+2026-08-21 09:09:57,692 [INFO] Loaded 10 articles to build preview reports (TOP 10 restricted).
+2026-08-21 09:09:57,692 [INFO] Generating HTML email preview report...
+2026-08-21 09:09:57,697 [INFO] Generating TXT email preview report...
+2026-08-21 09:09:57,700 [INFO] Successfully generated HTML preview: project1_info_crawler_resend/reports\email_preview.html
+2026-08-21 09:09:57,700 [INFO] Successfully generated TXT preview: project1_info_crawler_resend/reports\email_preview.txt
